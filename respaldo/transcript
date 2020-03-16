@@ -1,0 +1,256 @@
+# Compile of SignExtend.v was successful.
+# Compile of Adder32bits.v was successful.
+# Compile of ALU.v was successful.
+# Compile of ALUControl.v was successful.
+# Compile of ANDGate.v was successful.
+# Compile of Control.v was successful.
+# Compile of DataMemory.v was successful.
+# Compile of DecoderRegisterFile.v was successful.
+# Compile of Definitions.v was successful.
+# Compile of MIPS_Processor.v was successful.
+# Compile of MIPS_Processor_TB.v was successful.
+# Compile of Multiplexer2to1.v was successful.
+# Compile of MUXRegisterFile.v was successful.
+# Compile of PC_Register.v was successful.
+# Compile of ProgramMemory.v was successful.
+# Compile of Register.v was successful.
+# Compile of RegisterFile.v was successful.
+# Compile of ShiftLeft2.v was successful.
+# 18 compiles, 0 failed with no errors.
+vsim -gui work.MIPS_Processor_TB
+# vsim -gui work.MIPS_Processor_TB 
+# Start time: 17:26:51 on Mar 14,2020
+# Loading work.MIPS_Processor_TB
+# Loading work.MIPS_Processor
+# Loading work.Control
+# Loading work.ProgramMemory
+# Loading work.Adder32bits
+# Loading work.Multiplexer2to1
+# Loading work.RegisterFile
+# Loading work.DecoderRegisterFile
+# Loading work.Register
+# Loading work.MUXRegisterFile
+# Loading work.SignExtend
+# Loading work.ALUControl
+# Loading work.ALU
+# ** Warning: (vsim-3017) C:/Users/coque/Desktop/AC/AC-Practice2/MIPS_Processor_TB.v(24): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV File: C:/Users/coque/Desktop/AC/AC-Practice2/MIPS_Processor.v
+# ** Warning: (vsim-3722) C:/Users/coque/Desktop/AC/AC-Practice2/MIPS_Processor_TB.v(24): [TFMPC] - Missing connection for port 'PortIn'.
+# ** Warning: (vsim-3017) C:/Users/coque/Desktop/AC/AC-Practice2/MIPS_Processor.v(66): [TFMPC] - Too few port connections. Expected 10, found 7.
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/ControlUnit File: C:/Users/coque/Desktop/AC/AC-Practice2/Control.v
+# ** Warning: (vsim-3722) C:/Users/coque/Desktop/AC/AC-Practice2/MIPS_Processor.v(66): [TFMPC] - Missing connection for port 'MemRead'.
+# ** Warning: (vsim-3722) C:/Users/coque/Desktop/AC/AC-Practice2/MIPS_Processor.v(66): [TFMPC] - Missing connection for port 'MemtoReg'.
+# ** Warning: (vsim-3722) C:/Users/coque/Desktop/AC/AC-Practice2/MIPS_Processor.v(66): [TFMPC] - Missing connection for port 'MemWrite'.
+add wave sim:/MIPS_Processor_TB/*
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/coque/Desktop/AC/AC-Practice2/wave.do
+do C:/Users/coque/Desktop/AC/AC-Practice2/wave.do
+do sim.do
+# End time: 17:39:05 on Mar 14,2020, Elapsed time: 0:12:14
+# Errors: 0, Warnings: 6
+# vsim work.MIPS_Processor_TB 
+# Start time: 17:39:05 on Mar 14,2020
+# Loading work.MIPS_Processor_TB
+# Loading work.MIPS_Processor
+# Loading work.Control
+# Loading work.ProgramMemory
+# Loading work.Adder32bits
+# Loading work.Multiplexer2to1
+# Loading work.RegisterFile
+# Loading work.DecoderRegisterFile
+# Loading work.Register
+# Loading work.MUXRegisterFile
+# Loading work.SignExtend
+# Loading work.ALUControl
+# Loading work.ALU
+# ** Warning: (vsim-3017) C:/Users/coque/Desktop/AC/AC-Practice2/MIPS_Processor_TB.v(24): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV File: C:/Users/coque/Desktop/AC/AC-Practice2/MIPS_Processor.v
+# ** Warning: (vsim-3722) C:/Users/coque/Desktop/AC/AC-Practice2/MIPS_Processor_TB.v(24): [TFMPC] - Missing connection for port 'PortIn'.
+# ** Warning: (vsim-3017) C:/Users/coque/Desktop/AC/AC-Practice2/MIPS_Processor.v(66): [TFMPC] - Too few port connections. Expected 10, found 7.
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/ControlUnit File: C:/Users/coque/Desktop/AC/AC-Practice2/Control.v
+# ** Warning: (vsim-3722) C:/Users/coque/Desktop/AC/AC-Practice2/MIPS_Processor.v(66): [TFMPC] - Missing connection for port 'MemRead'.
+# ** Warning: (vsim-3722) C:/Users/coque/Desktop/AC/AC-Practice2/MIPS_Processor.v(66): [TFMPC] - Missing connection for port 'MemtoReg'.
+# ** Warning: (vsim-3722) C:/Users/coque/Desktop/AC/AC-Practice2/MIPS_Processor.v(66): [TFMPC] - Missing connection for port 'MemWrite'.
+do sim.do
+# End time: 17:46:04 on Mar 14,2020, Elapsed time: 0:06:59
+# Errors: 0, Warnings: 6
+# vsim work.MIPS_Processor_TB 
+# Start time: 17:46:04 on Mar 14,2020
+# Loading work.MIPS_Processor_TB
+# Loading work.MIPS_Processor
+# Loading work.Control
+# Loading work.ProgramMemory
+# Loading work.Adder32bits
+# Loading work.Multiplexer2to1
+# Loading work.RegisterFile
+# Loading work.DecoderRegisterFile
+# Loading work.Register
+# Loading work.MUXRegisterFile
+# Loading work.SignExtend
+# Loading work.ALUControl
+# Loading work.ALU
+# ** Warning: (vsim-3017) C:/Users/coque/Desktop/AC/AC-Practice2/MIPS_Processor_TB.v(24): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV File: C:/Users/coque/Desktop/AC/AC-Practice2/MIPS_Processor.v
+# ** Warning: (vsim-3722) C:/Users/coque/Desktop/AC/AC-Practice2/MIPS_Processor_TB.v(24): [TFMPC] - Missing connection for port 'PortIn'.
+# ** Warning: (vsim-3017) C:/Users/coque/Desktop/AC/AC-Practice2/MIPS_Processor.v(66): [TFMPC] - Too few port connections. Expected 10, found 7.
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/ControlUnit File: C:/Users/coque/Desktop/AC/AC-Practice2/Control.v
+# ** Warning: (vsim-3722) C:/Users/coque/Desktop/AC/AC-Practice2/MIPS_Processor.v(66): [TFMPC] - Missing connection for port 'MemRead'.
+# ** Warning: (vsim-3722) C:/Users/coque/Desktop/AC/AC-Practice2/MIPS_Processor.v(66): [TFMPC] - Missing connection for port 'MemtoReg'.
+# ** Warning: (vsim-3722) C:/Users/coque/Desktop/AC/AC-Practice2/MIPS_Processor.v(66): [TFMPC] - Missing connection for port 'MemWrite'.
+# Compile of Control.v was successful.
+# Compile of ALU.v was successful.
+# Compile of ALUControl.v was successful.
+do sim.do
+# End time: 17:47:27 on Mar 14,2020, Elapsed time: 0:01:23
+# Errors: 0, Warnings: 6
+# vsim work.MIPS_Processor_TB 
+# Start time: 17:47:28 on Mar 14,2020
+# Loading work.MIPS_Processor_TB
+# Loading work.MIPS_Processor
+# Loading work.Control
+# Loading work.ProgramMemory
+# Loading work.Adder32bits
+# Loading work.Multiplexer2to1
+# Loading work.RegisterFile
+# Loading work.DecoderRegisterFile
+# Loading work.Register
+# Loading work.MUXRegisterFile
+# Loading work.SignExtend
+# Loading work.ALUControl
+# Loading work.ALU
+# ** Warning: (vsim-3017) C:/Users/coque/Desktop/AC/AC-Practice2/MIPS_Processor_TB.v(24): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV File: C:/Users/coque/Desktop/AC/AC-Practice2/MIPS_Processor.v
+# ** Warning: (vsim-3722) C:/Users/coque/Desktop/AC/AC-Practice2/MIPS_Processor_TB.v(24): [TFMPC] - Missing connection for port 'PortIn'.
+# ** Warning: (vsim-3017) C:/Users/coque/Desktop/AC/AC-Practice2/MIPS_Processor.v(66): [TFMPC] - Too few port connections. Expected 10, found 7.
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/ControlUnit File: C:/Users/coque/Desktop/AC/AC-Practice2/Control.v
+# ** Warning: (vsim-3722) C:/Users/coque/Desktop/AC/AC-Practice2/MIPS_Processor.v(66): [TFMPC] - Missing connection for port 'MemRead'.
+# ** Warning: (vsim-3722) C:/Users/coque/Desktop/AC/AC-Practice2/MIPS_Processor.v(66): [TFMPC] - Missing connection for port 'MemtoReg'.
+# ** Warning: (vsim-3722) C:/Users/coque/Desktop/AC/AC-Practice2/MIPS_Processor.v(66): [TFMPC] - Missing connection for port 'MemWrite'.
+do sim.do
+# End time: 18:06:29 on Mar 14,2020, Elapsed time: 0:19:01
+# Errors: 0, Warnings: 6
+# vsim work.MIPS_Processor_TB 
+# Start time: 18:06:30 on Mar 14,2020
+# Loading work.MIPS_Processor_TB
+# Loading work.MIPS_Processor
+# Loading work.Control
+# Loading work.ProgramMemory
+# Loading work.Adder32bits
+# Loading work.Multiplexer2to1
+# Loading work.RegisterFile
+# Loading work.DecoderRegisterFile
+# Loading work.Register
+# Loading work.MUXRegisterFile
+# Loading work.SignExtend
+# Loading work.ALUControl
+# Loading work.ALU
+# ** Warning: (vsim-3017) C:/Users/coque/Desktop/AC/AC-Practice2/MIPS_Processor_TB.v(24): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV File: C:/Users/coque/Desktop/AC/AC-Practice2/MIPS_Processor.v
+# ** Warning: (vsim-3722) C:/Users/coque/Desktop/AC/AC-Practice2/MIPS_Processor_TB.v(24): [TFMPC] - Missing connection for port 'PortIn'.
+# ** Warning: (vsim-3017) C:/Users/coque/Desktop/AC/AC-Practice2/MIPS_Processor.v(66): [TFMPC] - Too few port connections. Expected 10, found 7.
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/ControlUnit File: C:/Users/coque/Desktop/AC/AC-Practice2/Control.v
+# ** Warning: (vsim-3722) C:/Users/coque/Desktop/AC/AC-Practice2/MIPS_Processor.v(66): [TFMPC] - Missing connection for port 'MemRead'.
+# ** Warning: (vsim-3722) C:/Users/coque/Desktop/AC/AC-Practice2/MIPS_Processor.v(66): [TFMPC] - Missing connection for port 'MemtoReg'.
+# ** Warning: (vsim-3722) C:/Users/coque/Desktop/AC/AC-Practice2/MIPS_Processor.v(66): [TFMPC] - Missing connection for port 'MemWrite'.
+# Compile of MIPS_Processor.v was successful.
+do sim.do
+# End time: 18:07:00 on Mar 14,2020, Elapsed time: 0:00:30
+# Errors: 0, Warnings: 6
+# vsim work.MIPS_Processor_TB 
+# Start time: 18:07:01 on Mar 14,2020
+# Loading work.MIPS_Processor_TB
+# Loading work.MIPS_Processor
+# Loading work.Control
+# Loading work.PC_Register
+# Loading work.ProgramMemory
+# Loading work.Adder32bits
+# Loading work.Multiplexer2to1
+# Loading work.RegisterFile
+# Loading work.DecoderRegisterFile
+# Loading work.Register
+# Loading work.MUXRegisterFile
+# Loading work.SignExtend
+# Loading work.ALUControl
+# Loading work.ALU
+# ** Warning: (vsim-3017) C:/Users/coque/Desktop/AC/AC-Practice2/MIPS_Processor_TB.v(24): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV File: C:/Users/coque/Desktop/AC/AC-Practice2/MIPS_Processor.v
+# ** Warning: (vsim-3722) C:/Users/coque/Desktop/AC/AC-Practice2/MIPS_Processor_TB.v(24): [TFMPC] - Missing connection for port 'PortIn'.
+# ** Warning: (vsim-3017) C:/Users/coque/Desktop/AC/AC-Practice2/MIPS_Processor.v(64): [TFMPC] - Too few port connections. Expected 10, found 7.
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/ControlUnit File: C:/Users/coque/Desktop/AC/AC-Practice2/Control.v
+# ** Warning: (vsim-3722) C:/Users/coque/Desktop/AC/AC-Practice2/MIPS_Processor.v(64): [TFMPC] - Missing connection for port 'MemRead'.
+# ** Warning: (vsim-3722) C:/Users/coque/Desktop/AC/AC-Practice2/MIPS_Processor.v(64): [TFMPC] - Missing connection for port 'MemtoReg'.
+# ** Warning: (vsim-3722) C:/Users/coque/Desktop/AC/AC-Practice2/MIPS_Processor.v(64): [TFMPC] - Missing connection for port 'MemWrite'.
+# ** Warning: (vsim-3015) C:/Users/coque/Desktop/AC/AC-Practice2/MIPS_Processor.v(76): [PCDPC] - Port size (32) does not match connection size (1) for port 'NewPC'. The port definition is at: C:/Users/coque/Desktop/AC/AC-Practice2/PC_Register.v(22).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/ProgramCounter File: C:/Users/coque/Desktop/AC/AC-Practice2/PC_Register.v
+# Compile of MIPS_Processor.v was successful.
+# Compile of SignExtend.v was successful.
+# Compile of Adder32bits.v was successful.
+# Compile of ALU.v was successful.
+# Compile of ALUControl.v was successful.
+# Compile of ANDGate.v was successful.
+# Compile of Control.v was successful.
+# Compile of DataMemory.v was successful.
+# Compile of DecoderRegisterFile.v was successful.
+# Compile of Definitions.v was successful.
+# Compile of MIPS_Processor.v was successful.
+# Compile of MIPS_Processor_TB.v was successful.
+# Compile of Multiplexer2to1.v was successful.
+# Compile of MUXRegisterFile.v was successful.
+# Compile of PC_Register.v was successful.
+# Compile of ProgramMemory.v was successful.
+# Compile of Register.v was successful.
+# Compile of RegisterFile.v was successful.
+# Compile of ShiftLeft2.v was successful.
+# 18 compiles, 0 failed with no errors.
+do sim.do
+# End time: 18:20:49 on Mar 14,2020, Elapsed time: 0:13:48
+# Errors: 0, Warnings: 7
+# vsim work.MIPS_Processor_TB 
+# Start time: 18:20:49 on Mar 14,2020
+# Loading work.MIPS_Processor_TB
+# Loading work.MIPS_Processor
+# Loading work.Control
+# Loading work.PC_Register
+# Loading work.ProgramMemory
+# Loading work.Adder32bits
+# Loading work.Multiplexer2to1
+# Loading work.RegisterFile
+# Loading work.DecoderRegisterFile
+# Loading work.Register
+# Loading work.MUXRegisterFile
+# Loading work.SignExtend
+# Loading work.ALUControl
+# Loading work.ALU
+# ** Warning: (vsim-3017) C:/Users/coque/Desktop/AC/AC-Practice2/MIPS_Processor_TB.v(24): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV File: C:/Users/coque/Desktop/AC/AC-Practice2/MIPS_Processor.v
+# ** Warning: (vsim-3722) C:/Users/coque/Desktop/AC/AC-Practice2/MIPS_Processor_TB.v(24): [TFMPC] - Missing connection for port 'PortIn'.
+# ** Warning: (vsim-3017) C:/Users/coque/Desktop/AC/AC-Practice2/MIPS_Processor.v(64): [TFMPC] - Too few port connections. Expected 10, found 7.
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/ControlUnit File: C:/Users/coque/Desktop/AC/AC-Practice2/Control.v
+# ** Warning: (vsim-3722) C:/Users/coque/Desktop/AC/AC-Practice2/MIPS_Processor.v(64): [TFMPC] - Missing connection for port 'MemRead'.
+# ** Warning: (vsim-3722) C:/Users/coque/Desktop/AC/AC-Practice2/MIPS_Processor.v(64): [TFMPC] - Missing connection for port 'MemtoReg'.
+# ** Warning: (vsim-3722) C:/Users/coque/Desktop/AC/AC-Practice2/MIPS_Processor.v(64): [TFMPC] - Missing connection for port 'MemWrite'.
+# End time: 19:19:03 on Mar 14,2020, Elapsed time: 0:58:14
+# Errors: 0, Warnings: 6
