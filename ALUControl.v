@@ -1,4 +1,4 @@
-/******************************************************************
+﻿/******************************************************************
 * Description
 *	This is the control unit for the ALU. It receves an signal called 
 *	ALUOp from the control unit and a signal called ALUFunction from
@@ -49,11 +49,14 @@ always@(Selector)begin
 		R_Type_ADD: 	ALUControlValues = 4'b0011;
 		I_Type_ADDI: 	ALUControlValues = 4'b0011;
 		I_Type_ORI: 	ALUControlValues = 4'b0001;
+<<<<<<< HEAD
 		//Nuevos
 		I_Type_ANDI:	ALUControlValues = 4'b0000;
 		R_Type_SLL:		ALUControlValues = 4'b0101;
 		R_Type_SRL:		ALUControlValues = 4'b0110;
 		I_Type_LUI: 	ALUControlValues = 4'b0111;
+=======
+>>>>>>> 70e06579a14fd18d14f017ef8cf0fb82fa8d7d75
 		default: ALUControlValues = 4'b1001;
 	endcase
 end

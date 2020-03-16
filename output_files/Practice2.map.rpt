@@ -1,5 +1,9 @@
 Analysis & Synthesis report for Practice2
+<<<<<<< HEAD
 Mon Mar 16 13:38:52 2020
+=======
+Sat Mar 14 19:18:11 2020
+>>>>>>> 70e06579a14fd18d14f017ef8cf0fb82fa8d7d75
 Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
 
 
@@ -91,13 +95,22 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
+<<<<<<< HEAD
 ; Analysis & Synthesis Status        ; Successful - Mon Mar 16 13:38:52 2020       ;
+=======
+; Analysis & Synthesis Status        ; Successful - Sat Mar 14 19:18:10 2020       ;
+>>>>>>> 70e06579a14fd18d14f017ef8cf0fb82fa8d7d75
 ; Quartus Prime Version              ; 19.1.0 Build 670 09/22/2019 SJ Lite Edition ;
 ; Revision Name                      ; Practice2                                   ;
 ; Top-level Entity Name              ; MIPS_Processor                              ;
 ; Family                             ; Cyclone IV E                                ;
+<<<<<<< HEAD
 ; Total logic elements               ; 1,369                                       ;
 ;     Total combinational functions  ; 985                                         ;
+=======
+; Total logic elements               ; 1,361                                       ;
+;     Total combinational functions  ; 977                                         ;
+>>>>>>> 70e06579a14fd18d14f017ef8cf0fb82fa8d7d75
 ;     Dedicated logic registers      ; 421                                         ;
 ; Total registers                    ; 421                                         ;
 ; Total pins                         ; 74                                          ;
@@ -207,7 +220,11 @@ https://fpgasoftware.intel.com/eula.
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
+<<<<<<< HEAD
 ;     Processor 2            ;   0.1%      ;
+=======
+;     Processor 2            ;   0.0%      ;
+>>>>>>> 70e06579a14fd18d14f017ef8cf0fb82fa8d7d75
 +----------------------------+-------------+
 
 
@@ -238,6 +255,7 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------+-----------+
 ; Resource                                    ; Usage     ;
 +---------------------------------------------+-----------+
+<<<<<<< HEAD
 ; Estimated Total logic elements              ; 1,369     ;
 ;                                             ;           ;
 ; Total combinational functions               ; 985       ;
@@ -248,6 +266,18 @@ https://fpgasoftware.intel.com/eula.
 ;                                             ;           ;
 ; Logic elements by mode                      ;           ;
 ;     -- normal mode                          ; 950       ;
+=======
+; Estimated Total logic elements              ; 1,361     ;
+;                                             ;           ;
+; Total combinational functions               ; 977       ;
+; Logic element usage by number of LUT inputs ;           ;
+;     -- 4 input functions                    ; 647       ;
+;     -- 3 input functions                    ; 213       ;
+;     -- <=2 input functions                  ; 117       ;
+;                                             ;           ;
+; Logic elements by mode                      ;           ;
+;     -- normal mode                          ; 942       ;
+>>>>>>> 70e06579a14fd18d14f017ef8cf0fb82fa8d7d75
 ;     -- arithmetic mode                      ; 35        ;
 ;                                             ;           ;
 ; Total registers                             ; 421       ;
@@ -260,8 +290,13 @@ https://fpgasoftware.intel.com/eula.
 ;                                             ;           ;
 ; Maximum fan-out node                        ; clk~input ;
 ; Maximum fan-out                             ; 421       ;
+<<<<<<< HEAD
 ; Total fan-out                               ; 5330      ;
 ; Average fan-out                             ; 3.43      ;
+=======
+; Total fan-out                               ; 5244      ;
+; Average fan-out                             ; 3.39      ;
+>>>>>>> 70e06579a14fd18d14f017ef8cf0fb82fa8d7d75
 +---------------------------------------------+-----------+
 
 
@@ -270,6 +305,7 @@ https://fpgasoftware.intel.com/eula.
 +--------------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+-------------------------------------------------------------------------+---------------------+--------------+
 ; Compilation Hierarchy Node                       ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                     ; Entity Name         ; Library Name ;
 +--------------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+-------------------------------------------------------------------------+---------------------+--------------+
+<<<<<<< HEAD
 ; |MIPS_Processor                                  ; 985 (0)             ; 421 (0)                   ; 0           ; 0            ; 0       ; 0         ; 74   ; 0            ; |MIPS_Processor                                                         ; MIPS_Processor      ; work         ;
 ;    |ALU:Arithmetic_Logic_Unit|                   ; 207 (207)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_Processor|ALU:Arithmetic_Logic_Unit                               ; ALU                 ; work         ;
 ;    |ALUControl:ArithmeticLogicUnitControl|       ; 6 (6)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_Processor|ALUControl:ArithmeticLogicUnitControl                   ; ALUControl          ; work         ;
@@ -280,6 +316,17 @@ https://fpgasoftware.intel.com/eula.
 ;    |RegisterFile:Register_File|                  ; 436 (0)             ; 416 (0)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_Processor|RegisterFile:Register_File                              ; RegisterFile        ; work         ;
 ;       |DecoderRegisterFile:Decoder|              ; 19 (19)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_Processor|RegisterFile:Register_File|DecoderRegisterFile:Decoder  ; DecoderRegisterFile ; work         ;
 ;       |MUXRegisterFile:MUXRegister1|             ; 417 (417)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_Processor|RegisterFile:Register_File|MUXRegisterFile:MUXRegister1 ; MUXRegisterFile     ; work         ;
+=======
+; |MIPS_Processor                                  ; 977 (0)             ; 421 (0)                   ; 0           ; 0            ; 0       ; 0         ; 74   ; 0            ; |MIPS_Processor                                                         ; MIPS_Processor      ; work         ;
+;    |ALU:Arithmetic_Logic_Unit|                   ; 206 (206)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_Processor|ALU:Arithmetic_Logic_Unit                               ; ALU                 ; work         ;
+;    |ALUControl:ArithmeticLogicUnitControl|       ; 6 (6)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_Processor|ALUControl:ArithmeticLogicUnitControl                   ; ALUControl          ; work         ;
+;    |Multiplexer2to1:MUX_ForReadDataAndInmediate| ; 291 (291)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_Processor|Multiplexer2to1:MUX_ForReadDataAndInmediate             ; Multiplexer2to1     ; work         ;
+;    |PC_Register:ProgramCounter|                  ; 5 (5)               ; 5 (5)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_Processor|PC_Register:ProgramCounter                              ; PC_Register         ; work         ;
+;    |ProgramMemory:ROMProgramMemory|              ; 33 (33)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_Processor|ProgramMemory:ROMProgramMemory                          ; ProgramMemory       ; work         ;
+;    |RegisterFile:Register_File|                  ; 436 (0)             ; 416 (0)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_Processor|RegisterFile:Register_File                              ; RegisterFile        ; work         ;
+;       |DecoderRegisterFile:Decoder|              ; 17 (17)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_Processor|RegisterFile:Register_File|DecoderRegisterFile:Decoder  ; DecoderRegisterFile ; work         ;
+;       |MUXRegisterFile:MUXRegister1|             ; 419 (419)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_Processor|RegisterFile:Register_File|MUXRegisterFile:MUXRegister1 ; MUXRegisterFile     ; work         ;
+>>>>>>> 70e06579a14fd18d14f017ef8cf0fb82fa8d7d75
 ;       |Register:Register_at|                     ; 0 (0)               ; 32 (32)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_Processor|RegisterFile:Register_File|Register:Register_at         ; Register            ; work         ;
 ;       |Register:Register_s0|                     ; 0 (0)               ; 32 (32)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_Processor|RegisterFile:Register_File|Register:Register_s0         ; Register            ; work         ;
 ;       |Register:Register_s1|                     ; 0 (0)               ; 32 (32)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MIPS_Processor|RegisterFile:Register_File|Register:Register_s1         ; Register            ; work         ;
@@ -1472,11 +1519,18 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------------------------------------------------+
 ; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                                                   ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------------------------------------------------+
+<<<<<<< HEAD
 ; 16:1               ; 32 bits   ; 320 LEs       ; 320 LEs              ; 0 LEs                  ; No         ; |MIPS_Processor|RegisterFile:Register_File|MUXRegisterFile:MUXRegister1|Mux4 ;
 ; 17:1               ; 5 bits    ; 55 LEs        ; 55 LEs               ; 0 LEs                  ; No         ; |MIPS_Processor|Multiplexer2to1:MUX_ForReadDataAndInmediate|MUX_Output[6]    ;
 ; 17:1               ; 27 bits   ; 297 LEs       ; 297 LEs              ; 0 LEs                  ; No         ; |MIPS_Processor|Multiplexer2to1:MUX_ForReadDataAndInmediate|MUX_Output[18]   ;
 ; 16:1               ; 16 bits   ; 160 LEs       ; 64 LEs               ; 96 LEs                 ; No         ; |MIPS_Processor|ALU:Arithmetic_Logic_Unit|Mux26                              ;
 ; 12:1               ; 16 bits   ; 128 LEs       ; 80 LEs               ; 48 LEs                 ; No         ; |MIPS_Processor|ALU:Arithmetic_Logic_Unit|Mux0                               ;
+=======
+; 16:1               ; 32 bits   ; 320 LEs       ; 320 LEs              ; 0 LEs                  ; No         ; |MIPS_Processor|RegisterFile:Register_File|MUXRegisterFile:MUXRegister1|Mux0 ;
+; 17:1               ; 6 bits    ; 66 LEs        ; 66 LEs               ; 0 LEs                  ; No         ; |MIPS_Processor|Multiplexer2to1:MUX_ForReadDataAndInmediate|MUX_Output[4]    ;
+; 17:1               ; 26 bits   ; 286 LEs       ; 286 LEs              ; 0 LEs                  ; No         ; |MIPS_Processor|Multiplexer2to1:MUX_ForReadDataAndInmediate|MUX_Output[29]   ;
+; 12:1               ; 32 bits   ; 256 LEs       ; 128 LEs              ; 128 LEs                ; No         ; |MIPS_Processor|ALU:Arithmetic_Logic_Unit|Mux16                              ;
+>>>>>>> 70e06579a14fd18d14f017ef8cf0fb82fa8d7d75
 +--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------------------------------------------------+
 
 
@@ -1942,6 +1996,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; cycloneiii_ff         ; 421                         ;
 ;     CLR               ; 5                           ;
 ;     ENA CLR           ; 416                         ;
+<<<<<<< HEAD
 ; cycloneiii_lcell_comb ; 986                         ;
 ;     arith             ; 35                          ;
 ;         2 data inputs ; 2                           ;
@@ -1955,6 +2010,21 @@ Note: In order to hide this table in the UI and the text report file, please set
 ;                       ;                             ;
 ; Max LUT depth         ; 15.00                       ;
 ; Average LUT depth     ; 11.15                       ;
+=======
+; cycloneiii_lcell_comb ; 978                         ;
+;     arith             ; 35                          ;
+;         2 data inputs ; 2                           ;
+;         3 data inputs ; 33                          ;
+;     normal            ; 943                         ;
+;         0 data inputs ; 1                           ;
+;         1 data inputs ; 2                           ;
+;         2 data inputs ; 113                         ;
+;         3 data inputs ; 180                         ;
+;         4 data inputs ; 647                         ;
+;                       ;                             ;
+; Max LUT depth         ; 12.10                       ;
+; Average LUT depth     ; 9.24                        ;
+>>>>>>> 70e06579a14fd18d14f017ef8cf0fb82fa8d7d75
 +-----------------------+-----------------------------+
 
 
@@ -1963,7 +2033,11 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
+<<<<<<< HEAD
 ; Top            ; 00:00:13     ;
+=======
+; Top            ; 00:00:14     ;
+>>>>>>> 70e06579a14fd18d14f017ef8cf0fb82fa8d7d75
 +----------------+--------------+
 
 
@@ -1973,7 +2047,11 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
+<<<<<<< HEAD
     Info: Processing started: Mon Mar 16 13:37:52 2020
+=======
+    Info: Processing started: Sat Mar 14 19:17:04 2020
+>>>>>>> 70e06579a14fd18d14f017ef8cf0fb82fa8d7d75
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Practice2 -c Practice2
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
@@ -2016,7 +2094,11 @@ Info (12127): Elaborating entity "MIPS_Processor" for the top level hierarchy
 Info (12128): Elaborating entity "Control" for hierarchy "Control:ControlUnit" File: C:/Users/coque/Desktop/AC/AC-Practice2/MIPS_Processor.v Line: 73
 Info (12128): Elaborating entity "PC_Register" for hierarchy "PC_Register:ProgramCounter" File: C:/Users/coque/Desktop/AC/AC-Practice2/MIPS_Processor.v Line: 83
 Info (12128): Elaborating entity "ProgramMemory" for hierarchy "ProgramMemory:ROMProgramMemory" File: C:/Users/coque/Desktop/AC/AC-Practice2/MIPS_Processor.v Line: 94
+<<<<<<< HEAD
 Warning (10850): Verilog HDL warning at ProgramMemory.v(34): number of words (25) in memory file does not match the number of elements in the address range [0:31] File: C:/Users/coque/Desktop/AC/AC-Practice2/ProgramMemory.v Line: 34
+=======
+Warning (10850): Verilog HDL warning at ProgramMemory.v(34): number of words (18) in memory file does not match the number of elements in the address range [0:31] File: C:/Users/coque/Desktop/AC/AC-Practice2/ProgramMemory.v Line: 34
+>>>>>>> 70e06579a14fd18d14f017ef8cf0fb82fa8d7d75
 Warning (10030): Net "rom.data_a" at ProgramMemory.v(30) has no driver or initial value, using a default initial value '0' File: C:/Users/coque/Desktop/AC/AC-Practice2/ProgramMemory.v Line: 30
 Warning (10030): Net "rom.waddr_a" at ProgramMemory.v(30) has no driver or initial value, using a default initial value '0' File: C:/Users/coque/Desktop/AC/AC-Practice2/ProgramMemory.v Line: 30
 Warning (10030): Net "rom.we_a" at ProgramMemory.v(30) has no driver or initial value, using a default initial value '0' File: C:/Users/coque/Desktop/AC/AC-Practice2/ProgramMemory.v Line: 30
@@ -2032,7 +2114,10 @@ Info (12128): Elaborating entity "ALUControl" for hierarchy "ALUControl:Arithmet
 Info (12128): Elaborating entity "ALU" for hierarchy "ALU:Arithmetic_Logic_Unit" File: C:/Users/coque/Desktop/AC/AC-Practice2/MIPS_Processor.v Line: 186
 Warning (10235): Verilog HDL Always Construct warning at ALU.v(54): variable "shamt" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/coque/Desktop/AC/AC-Practice2/ALU.v Line: 54
 Warning (10235): Verilog HDL Always Construct warning at ALU.v(56): variable "shamt" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/coque/Desktop/AC/AC-Practice2/ALU.v Line: 56
+<<<<<<< HEAD
 Warning (10230): Verilog HDL assignment warning at ALU.v(58): truncated value with size 48 to match size of target (32) File: C:/Users/coque/Desktop/AC/AC-Practice2/ALU.v Line: 58
+=======
+>>>>>>> 70e06579a14fd18d14f017ef8cf0fb82fa8d7d75
 Info (276014): Found 1 instances of uninferred RAM logic
     Info (276007): RAM logic "RegisterFile:Register_File|DecoderRegisterFile:Decoder|Ram0" is uninferred due to asynchronous read logic File: C:/Users/coque/Desktop/AC/AC-Practice2/DecoderRegisterFile.v Line: 20
 Warning (127007): Memory Initialization File or Hexadecimal (Intel-Format) File "C:/Users/coque/Desktop/AC/AC-Practice2/db/Practice2.ram0_ProgramMemory_93ad684.hdl.mif" contains "don't care" values -- overwriting them with 0s
@@ -2083,6 +2168,7 @@ Warning (21074): Design contains 8 input pin(s) that do not drive logic
     Warning (15610): No output dependent on input pin "PortIn[5]" File: C:/Users/coque/Desktop/AC/AC-Practice2/MIPS_Processor.v Line: 20
     Warning (15610): No output dependent on input pin "PortIn[6]" File: C:/Users/coque/Desktop/AC/AC-Practice2/MIPS_Processor.v Line: 20
     Warning (15610): No output dependent on input pin "PortIn[7]" File: C:/Users/coque/Desktop/AC/AC-Practice2/MIPS_Processor.v Line: 20
+<<<<<<< HEAD
 Info (21057): Implemented 1475 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 10 input pins
     Info (21059): Implemented 64 output pins
@@ -2092,5 +2178,16 @@ Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 52 warnings
     Info: Processing ended: Mon Mar 16 13:38:52 2020
     Info: Elapsed time: 00:01:00
     Info: Total CPU time (on all processors): 00:00:54
+=======
+Info (21057): Implemented 1467 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 10 input pins
+    Info (21059): Implemented 64 output pins
+    Info (21061): Implemented 1393 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 51 warnings
+    Info: Peak virtual memory: 4757 megabytes
+    Info: Processing ended: Sat Mar 14 19:18:11 2020
+    Info: Elapsed time: 00:01:07
+    Info: Total CPU time (on all processors): 00:01:00
+>>>>>>> 70e06579a14fd18d14f017ef8cf0fb82fa8d7d75
 
 

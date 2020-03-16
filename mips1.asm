@@ -21,7 +21,10 @@
 	
 	# 2's complement of register $t0
 	nor $at,$t0,$t0
+<<<<<<< HEAD
 	nor $at,$t0,$t0
+=======
+>>>>>>> 70e06579a14fd18d14f017ef8cf0fb82fa8d7d75
 	addi $t0,$at,1
 	
 	# Move register $t0 to $t6
@@ -30,6 +33,7 @@
 	# Swap registers $t1 and $t2
 	addi $t0,$zero,5
 	addi  $t8,$zero, 10
+<<<<<<< HEAD
 	
 	#ori
 	#andi
@@ -40,4 +44,6 @@
 	sll  $t0,$t0, 16
 	srl  $t0,$t0, 16
 	lui  $t1,8	
+=======
+>>>>>>> 70e06579a14fd18d14f017ef8cf0fb82fa8d7d75
 	

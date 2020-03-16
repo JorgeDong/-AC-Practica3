@@ -1,4 +1,4 @@
-/******************************************************************
+﻿/******************************************************************
 * Description
 *	This is control unit for the MIPS processor. The control unit is 
 *	in charge of generation of the control signals. Its only input 
@@ -29,9 +29,12 @@ localparam R_Type = 0;
 localparam I_Type_ADDI = 6'h8;
 localparam I_Type_ORI = 6'h0d;
 
+<<<<<<< HEAD
 localparam I_Type_ANDI = 6'h0c;
 localparam I_Type_LUI = 6'h0f;
 
+=======
+>>>>>>> 70e06579a14fd18d14f017ef8cf0fb82fa8d7d75
 reg [10:0] ControlValues;
 
 always@(OP) begin
@@ -39,11 +42,14 @@ always@(OP) begin
 		R_Type:       ControlValues= 11'b1_001_00_00_111;
 		I_Type_ADDI:  ControlValues= 11'b0_101_00_00_100;
 		I_Type_ORI:   ControlValues= 11'b0_101_00_00_101;
+<<<<<<< HEAD
 		//Nuevos
 		I_Type_ANDI:  ControlValues= 11'b0_101_00_00_110;
 		I_Type_LUI:  ControlValues= 11'b0_101_00_00_001;
 		
 		
+=======
+>>>>>>> 70e06579a14fd18d14f017ef8cf0fb82fa8d7d75
 		
 		default:
 			ControlValues= 10'b0000000000;

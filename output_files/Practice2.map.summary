@@ -1,10 +1,19 @@
+<<<<<<< HEAD
 Analysis & Synthesis Status : Successful - Mon Mar 16 13:38:52 2020
+=======
+Analysis & Synthesis Status : Successful - Sat Mar 14 19:18:10 2020
+>>>>>>> 70e06579a14fd18d14f017ef8cf0fb82fa8d7d75
 Quartus Prime Version : 19.1.0 Build 670 09/22/2019 SJ Lite Edition
 Revision Name : Practice2
 Top-level Entity Name : MIPS_Processor
 Family : Cyclone IV E
+<<<<<<< HEAD
 Total logic elements : 1,369
     Total combinational functions : 985
+=======
+Total logic elements : 1,361
+    Total combinational functions : 977
+>>>>>>> 70e06579a14fd18d14f017ef8cf0fb82fa8d7d75
     Dedicated logic registers : 421
 Total registers : 421
 Total pins : 74

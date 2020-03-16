@@ -36,6 +36,7 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 Top level modules:
 	MUXRegisterFile
 
+<<<<<<< HEAD
 } {} {}} C:/Users/coque/Desktop/AC/AC-Practice2/MIPS_Processor.v {1 {vlog -work work -stats=none C:/Users/coque/Desktop/AC/AC-Practice2/MIPS_Processor.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module MIPS_Processor
@@ -50,6 +51,8 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 Top level modules:
 	Control
 
+=======
+>>>>>>> 70e06579a14fd18d14f017ef8cf0fb82fa8d7d75
 } {} {}} C:/Users/coque/Desktop/AC/AC-Practice2/ProgramMemory.v {1 {vlog -work work -stats=none C:/Users/coque/Desktop/AC/AC-Practice2/ProgramMemory.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module ProgramMemory
@@ -71,6 +74,7 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 Top level modules:
 	Multiplexer2to1
 
+<<<<<<< HEAD
 } {} {}} C:/Users/coque/Desktop/AC/AC-Practice2/ALU.v {1 {vlog -work work -stats=none C:/Users/coque/Desktop/AC/AC-Practice2/ALU.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module ALU
@@ -85,6 +89,8 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 Top level modules:
 	DataMemory
 
+=======
+>>>>>>> 70e06579a14fd18d14f017ef8cf0fb82fa8d7d75
 } {} {}} C:/Users/coque/Desktop/AC/AC-Practice2/ShiftLeft2.v {1 {vlog -work work -stats=none C:/Users/coque/Desktop/AC/AC-Practice2/ShiftLeft2.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module ShiftLeft2
@@ -92,12 +98,21 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 Top level modules:
 	ShiftLeft2
 
+<<<<<<< HEAD
 } {} {}} C:/Users/coque/Desktop/AC/AC-Practice2/ALUControl.v {1 {vlog -work work -stats=none C:/Users/coque/Desktop/AC/AC-Practice2/ALUControl.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module ALUControl
 
 Top level modules:
 	ALUControl
+=======
+} {} {}} C:/Users/coque/Desktop/AC/AC-Practice2/DataMemory.v {1 {vlog -work work -stats=none C:/Users/coque/Desktop/AC/AC-Practice2/DataMemory.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module DataMemory
+
+Top level modules:
+	DataMemory
+>>>>>>> 70e06579a14fd18d14f017ef8cf0fb82fa8d7d75
 
 } {} {}} C:/Users/coque/Desktop/AC/AC-Practice2/MIPS_Processor_TB.v {1 {vlog -work work -stats=none C:/Users/coque/Desktop/AC/AC-Practice2/MIPS_Processor_TB.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
