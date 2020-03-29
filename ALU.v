@@ -1,4 +1,4 @@
-/******************************************************************
+﻿/******************************************************************
 * Description
 *	This is an 32-bit arithetic logic unit that can execute the next set of operations:
 *		add
@@ -61,7 +61,9 @@ localparam LUI = 4'b0111;
 		default:
 			ALUResult= 0;
 		endcase // case(control)
-		Zero = (ALUResult==0) ? 1'b1 : 1'b0;
+		//Zero = (ALUResult==0) ? 1'b1 : 1'b0;
+		// If A xor B == 0 set 1 flag for beq 
+		Zero = ( (A ^ B ) == 0) ? 1'b1 : 1'b0;
      end // always @ (A or B or control)
 endmodule 
 // alu//

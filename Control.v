@@ -1,4 +1,4 @@
-/******************************************************************
+﻿/******************************************************************
 * Description
 *	This is control unit for the MIPS processor. The control unit is 
 *	in charge of generation of the control signals. Its only input 
@@ -55,8 +55,10 @@ always@(OP) begin
 		I_Type_LW:  ControlValues= 11'b0_111_10_00_010;
 		I_Type_SW:  ControlValues= 11'b0_110_01_00_010;
 		
-		//I_Type_BEQ:  ControlValues= 11'b0_101_00_00_001;
-		//I_Type_BNE:  ControlValues= 11'b0_101_00_00_001;
+		I_Type_BEQ:  ControlValues= 11'b0_000_00_01_011;
+		I_Type_BNE:  ControlValues= 11'b0_000_00_10_011;
+		
+		
 		//I_Type_J:  ControlValues= 11'b0_101_00_00_001;
 		//I_Type_JAL:  ControlValues= 11'b0_101_00_00_001;
 		

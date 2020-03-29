@@ -1,4 +1,4 @@
-/******************************************************************
+﻿/******************************************************************
 * Description
 *	This is  a ROM memory that represents the program memory. 
 * 	Internally, the memory is read without a signal clock. The initial 
@@ -31,7 +31,7 @@ assign RealAddress = {2'b0,Address[(DATA_WIDTH-1):2]};
 
 	initial
 	begin
-		$readmemh("C:/Users/coque/Desktop/AC/AC-Practice2/testLWSW2.dat", rom);
+		$readmemh("C:/Users/coque/Desktop/AC/AC-Practice2/beq.dat", rom);
 	end
 
 	always @ (RealAddress)

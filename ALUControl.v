@@ -1,4 +1,4 @@
-/******************************************************************
+﻿/******************************************************************
 * Description
 *	This is the control unit for the ALU. It receves an signal called 
 *	ALUOp from the control unit and a signal called ALUFunction from
@@ -37,9 +37,6 @@ localparam R_Type_SRL    = 9'b111_000010;
 
 localparam I_Type_LW    = 9'b010_xxxxxx;
 localparam I_Type_SW    = 9'b010_xxxxxx;
-
-
-
 
 reg [3:0] ALUControlValues;
 wire [8:0] Selector;

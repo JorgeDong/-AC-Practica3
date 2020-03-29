@@ -61,6 +61,8 @@ wire [31:0] PCtoBranch_wire;
 wire [31:0] DataMemorytoMUX;
 wire [31:0] DataMemoryMUXtoRegisterFile;
 
+wire [31:0] AdderBranchResult_wire;
+wire [31:0] PC_Branch_wire;
 
 
 
@@ -94,7 +96,7 @@ ProgramCounter
 	.clk(clk),
 	.reset(reset),
 	//.NewPC(PC_Final),
-	.NewPC(PC_4_wire),
+	.NewPC(PC_Branch_wire),
 	.PCValue(PC_wire)
 );
 
@@ -118,6 +120,33 @@ PC_Puls_4
 	
 	.Result(PC_4_wire)
 );
+
+
+Adder32bits
+AdderBranches
+(
+	.Data0(PC_4_wire),
+	.Data1(InmmediateExtend_wire << 2),
+	
+	.Result(AdderBranchResult_wire)
+);
+
+
+Multiplexer2to1
+#(
+	.NBits(32)
+)
+MUX_For_Brances
+(
+	.Selector((Zero_wire && BranchEQ_wire)|| (BranchNE_wire && ~Zero_wire)), 
+	.MUX_Data0(PC_4_wire),
+	.MUX_Data1(AdderBranchResult_wire),
+	.MUX_Output(PC_Branch_wire)
+
+);
+
+
+
 
 
 //******************************************************************/
@@ -245,4 +274,3 @@ assign ALUResultOut = ALUResult_wire;
 
 
 endmodule
-
