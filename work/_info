@@ -7,991 +7,400 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dC:/Users/coque/Desktop/AC/AC-Practice2
-<<<<<<< HEAD
-!s110 1584387549
-!i10b 1
-Z1 !s100 ]H0^NRAm[`J07LMS2@]Pb2
-Z2 IR42SI^<Wd_OkX[<0kRBz81
-Z3 VDg1SIo80bB@j0V0VzS_@n1
-Z4 =======
-!s110 1584231622
-!i10b 1
-R1
-R2
-R3
-R0
-<<<<<<< HEAD
-Z5 L0 13
-Z6 OV;L;10.5b;63
-r1
-!s85 0
-31
-!s108 1584387549.000000
-Z7 !s107 C:/Users/coque/Desktop/AC/AC-Practice2/Adder32bits.v|
-Z8 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/coque/Desktop/AC/AC-Practice2/Adder32bits.v|
-!i113 1
-Z9 o-work work
-Z10 tCvgOpt 0
-Z11 n@adder32bits
-R0
-<<<<<<< HEAD
-R6
-Z12 !s108 1584231622.000000
-r1
-!s85 0
-31
-!s108 1584387551.000000
-Z13 !s107 C:/Users/coque/Desktop/AC/AC-Practice2/ANDGate.v|
-Z14 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/coque/Desktop/AC/AC-Practice2/ANDGate.v|
-!i113 1
-R10
-Z15 !s110 1584231623
-Z16 n@a@n@d@gate
-R0
-<<<<<<< HEAD
-R6
-R12
-r1
-!s85 0
-31
-!s108 1584387552.000000
-Z17 !s107 C:/Users/coque/Desktop/AC/AC-Practice2/DataMemory.v|
-Z18 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/coque/Desktop/AC/AC-Practice2/DataMemory.v|
-!i113 1
-R10
-R15
-Z19 n@data@memory
-R0
-<<<<<<< HEAD
-Z20 L0 12
-R12
-r1
-!s85 0
-31
-!s108 1584387553.000000
-Z21 !s107 C:/Users/coque/Desktop/AC/AC-Practice2/DecoderRegisterFile.v|
-Z22 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/coque/Desktop/AC/AC-Practice2/DecoderRegisterFile.v|
-!i113 1
-R10
-R15
-Z23 n@decoder@register@file
-R0
-<<<<<<< HEAD
-Z24 L0 14
-R12
-r1
-!s85 0
-31
-Z25 !s108 1584387554.000000
-Z26 !s107 C:/Users/coque/Desktop/AC/AC-Practice2/MIPS_Processor_TB.v|
-Z27 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/coque/Desktop/AC/AC-Practice2/MIPS_Processor_TB.v|
-!i113 1
-R10
-R15
-Z28 n@m@i@p@s_@processor_@t@b
-R0
-<<<<<<< HEAD
-R6
-R12
-r1
-!s85 0
-31
-R25
-Z29 !s107 C:/Users/coque/Desktop/AC/AC-Practice2/Multiplexer2to1.v|
-Z30 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/coque/Desktop/AC/AC-Practice2/Multiplexer2to1.v|
-!i113 1
-R10
-R15
-Z31 n@multiplexer2to1
-R0
-<<<<<<< HEAD
-R12
-r1
-!s85 0
-31
-!s108 1584387555.000000
-Z32 !s107 C:/Users/coque/Desktop/AC/AC-Practice2/MUXRegisterFile.v|
-Z33 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/coque/Desktop/AC/AC-Practice2/MUXRegisterFile.v|
-!i113 1
-R10
-R15
-Z34 n@m@u@x@register@file
-R0
-<<<<<<< HEAD
-R24
-R12
-r1
-!s85 0
-31
-Z35 !s108 1584387556.000000
-Z36 !s107 C:/Users/coque/Desktop/AC/AC-Practice2/PC_Register.v|
-Z37 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/coque/Desktop/AC/AC-Practice2/PC_Register.v|
-!i113 1
-R10
-R15
-Z38 n@p@c_@register
-R0
-<<<<<<< HEAD
-R24
-R12
-r1
-!s85 0
-31
-R35
-Z39 !s107 C:/Users/coque/Desktop/AC/AC-Practice2/ProgramMemory.v|
-Z40 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/coque/Desktop/AC/AC-Practice2/ProgramMemory.v|
-!i113 1
-R10
-R15
-Z41 n@program@memory
-R0
-<<<<<<< HEAD
-Z42 !s110 1584231636
-R12
-r1
-!s85 0
-31
-Z43 !s108 1584387557.000000
-Z44 !s107 C:/Users/coque/Desktop/AC/AC-Practice2/Register.v|
-Z45 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/coque/Desktop/AC/AC-Practice2/Register.v|
-!i113 1
-R10
-R15
-Z46 n@register
-R0
-<<<<<<< HEAD
-R24
-R12
-r1
-!s85 0
-31
-R43
-Z47 !s107 C:/Users/coque/Desktop/AC/AC-Practice2/RegisterFile.v|
-Z48 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/coque/Desktop/AC/AC-Practice2/RegisterFile.v|
-!i113 1
-R10
-R15
-Z49 n@register@file
-R0
-<<<<<<< HEAD
-R42
-R12
-r1
-!s85 0
-31
-!s108 1584387558.000000
-Z50 !s107 C:/Users/coque/Desktop/AC/AC-Practice2/ShiftLeft2.v|
-Z51 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/coque/Desktop/AC/AC-Practice2/ShiftLeft2.v|
-!i113 1
-R10
-R15
-Z52 n@shift@left2
-R0
-<<<<<<< HEAD
-!s110 1584231631
-R12
-r1
-!s85 0
-31
-R9
-Z53 !s107 C:/Users/coque/Desktop/AC/AC-Practice2/SignExtend.v|
-Z54 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/coque/Desktop/AC/AC-Practice2/SignExtend.v|
-!i113 1
-R10
-R15
-R4
-R24
-R6
-r1
-!s85 0
-31
-!s108 1584231621.000000
-R53
-R54
-!i113 1
-R9
-R10
-R0
->>>>>>> 70e06579a14fd18d14f017ef8cf0fb82fa8d7d75
-R0
-Z55 w1560829425
-Z56 8C:/Users/coque/Desktop/AC/AC-Practice2/Adder32bits.v
-Z57 FC:/Users/coque/Desktop/AC/AC-Practice2/Adder32bits.v
->>>>>>> 70e06579a14fd18d14f017ef8cf0fb82fa8d7d75
-R0
-Z58 w1560829409
-Z59 8C:/Users/coque/Desktop/AC/AC-Practice2/ANDGate.v
-Z60 FC:/Users/coque/Desktop/AC/AC-Practice2/ANDGate.v
->>>>>>> 70e06579a14fd18d14f017ef8cf0fb82fa8d7d75
-R0
-w1560829402
-Z61 8C:/Users/coque/Desktop/AC/AC-Practice2/DataMemory.v
-Z62 FC:/Users/coque/Desktop/AC/AC-Practice2/DataMemory.v
->>>>>>> 70e06579a14fd18d14f017ef8cf0fb82fa8d7d75
-R0
-Z63 w1560829398
-Z64 8C:/Users/coque/Desktop/AC/AC-Practice2/DecoderRegisterFile.v
-Z65 FC:/Users/coque/Desktop/AC/AC-Practice2/DecoderRegisterFile.v
->>>>>>> 70e06579a14fd18d14f017ef8cf0fb82fa8d7d75
-R0
-w1560829373
-Z66 8C:/Users/coque/Desktop/AC/AC-Practice2/MIPS_Processor_TB.v
-Z67 FC:/Users/coque/Desktop/AC/AC-Practice2/MIPS_Processor_TB.v
->>>>>>> 70e06579a14fd18d14f017ef8cf0fb82fa8d7d75
-R0
-Z68 w1560829368
-Z69 8C:/Users/coque/Desktop/AC/AC-Practice2/Multiplexer2to1.v
-Z70 FC:/Users/coque/Desktop/AC/AC-Practice2/Multiplexer2to1.v
->>>>>>> 70e06579a14fd18d14f017ef8cf0fb82fa8d7d75
-R0
-Z71 w1560829365
-Z72 8C:/Users/coque/Desktop/AC/AC-Practice2/MUXRegisterFile.v
-Z73 FC:/Users/coque/Desktop/AC/AC-Practice2/MUXRegisterFile.v
-L0 2
->>>>>>> 70e06579a14fd18d14f017ef8cf0fb82fa8d7d75
-R0
-Z74 w1560829361
-Z75 8C:/Users/coque/Desktop/AC/AC-Practice2/PC_Register.v
-Z76 FC:/Users/coque/Desktop/AC/AC-Practice2/PC_Register.v
->>>>>>> 70e06579a14fd18d14f017ef8cf0fb82fa8d7d75
-R0
-w1584225699
-Z77 8C:/Users/coque/Desktop/AC/AC-Practice2/ProgramMemory.v
-Z78 FC:/Users/coque/Desktop/AC/AC-Practice2/ProgramMemory.v
->>>>>>> 70e06579a14fd18d14f017ef8cf0fb82fa8d7d75
-R0
-Z79 w1560829354
-Z80 8C:/Users/coque/Desktop/AC/AC-Practice2/Register.v
-Z81 FC:/Users/coque/Desktop/AC/AC-Practice2/Register.v
->>>>>>> 70e06579a14fd18d14f017ef8cf0fb82fa8d7d75
-R0
-Z82 w1560829350
-Z83 8C:/Users/coque/Desktop/AC/AC-Practice2/RegisterFile.v
-Z84 FC:/Users/coque/Desktop/AC/AC-Practice2/RegisterFile.v
->>>>>>> 70e06579a14fd18d14f017ef8cf0fb82fa8d7d75
-R0
-Z85 w1560829345
-Z86 8C:/Users/coque/Desktop/AC/AC-Practice2/ShiftLeft2.v
-Z87 FC:/Users/coque/Desktop/AC/AC-Practice2/ShiftLeft2.v
->>>>>>> 70e06579a14fd18d14f017ef8cf0fb82fa8d7d75
-R0
-Z88 w1560829341
-Z89 8C:/Users/coque/Desktop/AC/AC-Practice2/SignExtend.v
-Z90 FC:/Users/coque/Desktop/AC/AC-Practice2/SignExtend.v
->>>>>>> 70e06579a14fd18d14f017ef8cf0fb82fa8d7d75
-n@sign@extend
-R0
+Z0 dC:/Users/coque/Desktop/AC/AC-Practice3
 vAdder32bits
-Z91 !s110 1585639326
+Z1 !s110 1587596383
 !i10b 1
+!s100 ]H0^NRAm[`J07LMS2@]Pb2
+IBSz;Ez7<Qi>ClRUWK]3OT2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1560829425
+8C:/Users/coque/Desktop/AC/AC-Practice3/Adder32bits.v
+FC:/Users/coque/Desktop/AC/AC-Practice3/Adder32bits.v
+Z3 L0 13
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1587596382.000000
+!s107 C:/Users/coque/Desktop/AC/AC-Practice3/Adder32bits.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/coque/Desktop/AC/AC-Practice3/Adder32bits.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+n@adder32bits
+vALU
 R1
+!i10b 1
+!s100 fT@mO<fj>=f9TO`B_ahmS0
+I;8UfJn<d[nzK505i@i1:83
 R2
-R3
 R0
-R55
-R56
-R57
-R5
-R6
+w1585611675
+8C:/Users/coque/Desktop/AC/AC-Practice3/ALU.v
+FC:/Users/coque/Desktop/AC/AC-Practice3/ALU.v
+L0 20
+R4
 r1
 !s85 0
 31
-Z92 !s108 1585639326.000000
+Z8 !s108 1587596383.000000
+!s107 C:/Users/coque/Desktop/AC/AC-Practice3/ALU.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/coque/Desktop/AC/AC-Practice3/ALU.v|
+!i113 1
+R6
 R7
+n@a@l@u
+vALUControl
+Z9 !s110 1587596384
+!i10b 1
+!s100 Xb9jC_zXKc@iDkjaS9HOK2
+IZJ<>A?RR8Ci4<@K?II3A=3
+R2
+R0
+w1587592960
+8C:/Users/coque/Desktop/AC/AC-Practice3/ALUControl.v
+FC:/Users/coque/Desktop/AC/AC-Practice3/ALUControl.v
+Z10 L0 15
+R4
+r1
+!s85 0
+31
 R8
+!s107 C:/Users/coque/Desktop/AC/AC-Practice3/ALUControl.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/coque/Desktop/AC/AC-Practice3/ALUControl.v|
 !i113 1
-R9
-R10
-vALU
-R91
-!i10b 1
-Z93 !s100 fT@mO<fj>=f9TO`B_ahmS0
-Z94 I_JaA=0C5G65oLV1E=6=gF1
-R3
-R0
-Z95 w1585611675
-Z96 8C:/Users/coque/Desktop/AC/AC-Practice2/ALU.v
-Z97 FC:/Users/coque/Desktop/AC/AC-Practice2/ALU.v
-Z98 L0 20
 R6
-r1
-!s85 0
-31
-R92
-Z99 !s107 C:/Users/coque/Desktop/AC/AC-Practice2/ALU.v|
-Z100 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/coque/Desktop/AC/AC-Practice2/ALU.v|
-!i113 1
-R9
-R10
-Z101 n@a@l@u
-vALU
-Z102 !s110 1585639290
-!i10b 1
-R93
-R94
-R3
-R0
-R95
-R96
-R97
-R98
-R6
-r1
-!s85 0
-31
-Z103 !s108 1585639290.000000
-R99
-R100
-!i113 1
-R9
-R10
-R101
-vALUControl
-R102
-!i10b 1
-Z104 !s100 9e^VOzcSK^3FD84GVAFza3
-Z105 Ing>T>XdW0]OR0eFe<zNXf0
-R3
-R0
-Z106 w1585543469
-Z107 8C:/Users/coque/Desktop/AC/AC-Practice2/ALUControl.v
-Z108 FC:/Users/coque/Desktop/AC/AC-Practice2/ALUControl.v
-Z109 L0 15
-R6
-r1
-!s85 0
-31
-R103
-Z110 !s107 C:/Users/coque/Desktop/AC/AC-Practice2/ALUControl.v|
-Z111 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/coque/Desktop/AC/AC-Practice2/ALUControl.v|
-!i113 1
-R9
-R10
-Z112 n@a@l@u@control
-vALUControl
-R91
-!i10b 1
-R104
-R105
-R3
-R0
-R106
-R107
-R108
-R109
-R6
-r1
-!s85 0
-31
-R92
-R110
-R111
-!i113 1
-R9
-R10
-R112
+R7
+n@a@l@u@control
 vANDGate
-Z113 !s110 1585639327
+R9
 !i10b 1
-Z114 !s100 =@O=aQRi;bazk13J6U>4m3
-Z115 In_O_ocXz?nS8G=YWc3ScZ1
-R3
+!s100 =@O=aQRi;bazk13J6U>4m3
+Iad9DNbliO6Oh=iY]^oNgN1
+R2
 R0
-R58
-R59
-R60
-R5
-R6
+w1560829409
+8C:/Users/coque/Desktop/AC/AC-Practice3/ANDGate.v
+FC:/Users/coque/Desktop/AC/AC-Practice3/ANDGate.v
+R3
+R4
 r1
 !s85 0
 31
-Z116 !s108 1585639327.000000
-R13
-R14
+!s108 1587596384.000000
+!s107 C:/Users/coque/Desktop/AC/AC-Practice3/ANDGate.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/coque/Desktop/AC/AC-Practice3/ANDGate.v|
 !i113 1
-R9
-R10
+R6
+R7
+n@a@n@d@gate
+vControl
+Z11 !s110 1587596385
+!i10b 1
+!s100 [5MFff;4_VBf]RX[X;eZN1
+Ia2gKj9olk22CWn;;^cafV3
+R2
+R0
+w1585536640
+8C:/Users/coque/Desktop/AC/AC-Practice3/Control.v
+FC:/Users/coque/Desktop/AC/AC-Practice3/Control.v
+Z12 L0 14
+R4
+r1
+!s85 0
+31
+Z13 !s108 1587596385.000000
+!s107 C:/Users/coque/Desktop/AC/AC-Practice3/Control.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/coque/Desktop/AC/AC-Practice3/Control.v|
+!i113 1
+R6
+R7
+n@control
+vDataMemory
 R11
-vANDGate
-Z117 !s110 1585639291
 !i10b 1
-R114
-R115
-R3
+!s100 0WnR:]IZjSe]@JAj8YFja3
+IJDlTd>EXT5;1a31Sdl[_61
+R2
 R0
-R58
-R59
-R60
-R5
-R6
+w1585595226
+8C:/Users/coque/Desktop/AC/AC-Practice3/DataMemory.v
+FC:/Users/coque/Desktop/AC/AC-Practice3/DataMemory.v
+R3
+R4
 r1
 !s85 0
 31
-R103
 R13
+!s107 C:/Users/coque/Desktop/AC/AC-Practice3/DataMemory.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/coque/Desktop/AC/AC-Practice3/DataMemory.v|
+!i113 1
+R6
+R7
+n@data@memory
+vDecoderRegisterFile
+!s110 1587596386
+!i10b 1
+!s100 F1VSWfob<5:Z_;L=c07hJ3
+I7KA>Lzc8Pif[4n0:W?Z@33
+R2
+R0
+w1560829398
+8C:/Users/coque/Desktop/AC/AC-Practice3/DecoderRegisterFile.v
+FC:/Users/coque/Desktop/AC/AC-Practice3/DecoderRegisterFile.v
+Z14 L0 12
+R4
+r1
+!s85 0
+31
+!s108 1587596386.000000
+!s107 C:/Users/coque/Desktop/AC/AC-Practice3/DecoderRegisterFile.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/coque/Desktop/AC/AC-Practice3/DecoderRegisterFile.v|
+!i113 1
+R6
+R7
+n@decoder@register@file
+vMIPS_Processor
+!s110 1587596387
+!i10b 1
+!s100 CAMDJ5ZfFiUP5QMAoJKG;3
+I0nNGA3^2aIbY_c^_j@:jI0
+R2
+R0
+w1587595880
+8C:/Users/coque/Desktop/AC/AC-Practice3/MIPS_Processor.v
+FC:/Users/coque/Desktop/AC/AC-Practice3/MIPS_Processor.v
+L0 11
+R4
+r1
+!s85 0
+31
+!s108 1587596387.000000
+!s107 C:/Users/coque/Desktop/AC/AC-Practice3/MIPS_Processor.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/coque/Desktop/AC/AC-Practice3/MIPS_Processor.v|
+!i113 1
+R6
+R7
+n@m@i@p@s_@processor
+vMIPS_Processor_TB
+!s110 1587596388
+!i10b 1
+!s100 7O6XXMEA<WOOAzVN:PP@53
+IgO=4Ukmg^OedJ?A1zc5DA0
+R2
+R0
+w1585445097
+8C:/Users/coque/Desktop/AC/AC-Practice3/MIPS_Processor_TB.v
+FC:/Users/coque/Desktop/AC/AC-Practice3/MIPS_Processor_TB.v
+R10
+R4
+r1
+!s85 0
+31
+!s108 1587596388.000000
+!s107 C:/Users/coque/Desktop/AC/AC-Practice3/MIPS_Processor_TB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/coque/Desktop/AC/AC-Practice3/MIPS_Processor_TB.v|
+!i113 1
+R6
+R7
+n@m@i@p@s_@processor_@t@b
+vMultiplexer2to1
+!s110 1587596389
+!i10b 1
+!s100 F48Y>?kNP3VGSJ<6PZ3Z<0
+I`Of8UG]:a`>SRkmSiJ5b70
+R2
+R0
+w1560829368
+8C:/Users/coque/Desktop/AC/AC-Practice3/Multiplexer2to1.v
+FC:/Users/coque/Desktop/AC/AC-Practice3/Multiplexer2to1.v
+R3
+R4
+r1
+!s85 0
+31
+!s108 1587596389.000000
+!s107 C:/Users/coque/Desktop/AC/AC-Practice3/Multiplexer2to1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/coque/Desktop/AC/AC-Practice3/Multiplexer2to1.v|
+!i113 1
+R6
+R7
+n@multiplexer2to1
+vMUXRegisterFile
+!s110 1587596391
+!i10b 1
+!s100 <^j`[[]Fjj[]CWW`3JSFT0
+I15ZCPGYBFOG4^lMzH0Q:R3
+R2
+R0
+w1560829365
+8C:/Users/coque/Desktop/AC/AC-Practice3/MUXRegisterFile.v
+FC:/Users/coque/Desktop/AC/AC-Practice3/MUXRegisterFile.v
+L0 2
+R4
+r1
+!s85 0
+31
+!s108 1587596390.000000
+!s107 C:/Users/coque/Desktop/AC/AC-Practice3/MUXRegisterFile.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/coque/Desktop/AC/AC-Practice3/MUXRegisterFile.v|
+!i113 1
+R6
+R7
+n@m@u@x@register@file
+vPC_Register
+Z15 !s110 1587596392
+!i10b 1
+!s100 _;b?E28JEcZ?mB]466AVZ0
+IDT4F3zPM5G7W4dOGl:9>k2
+R2
+R0
+w1560829361
+8C:/Users/coque/Desktop/AC/AC-Practice3/PC_Register.v
+FC:/Users/coque/Desktop/AC/AC-Practice3/PC_Register.v
+R10
+R4
+r1
+!s85 0
+31
+!s108 1587596391.000000
+!s107 C:/Users/coque/Desktop/AC/AC-Practice3/PC_Register.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/coque/Desktop/AC/AC-Practice3/PC_Register.v|
+!i113 1
+R6
+R7
+n@p@c_@register
+vPipe
+R15
+!i10b 1
+!s100 Ol`Dm6zn:e0OJfJ<NLml50
+I[F[zCfB5Ba8YT;Z<iLgMP3
+R2
+R0
+w1587504030
+8C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v
+FC:/Users/coque/Desktop/AC/AC-Practice3/pipe.v
+R12
+R4
+r1
+!s85 0
+31
+!s108 1587596392.000000
+!s107 C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v|
+!i113 1
+R6
+R7
+n@pipe
+vProgramMemory
+!s110 1587596393
+!i10b 1
+!s100 K4efQ1flA=RW^o92AVYSB1
+IAV@jodNhVYQ1:kUB5G7BM2
+R2
+R0
+w1587526826
+8C:/Users/coque/Desktop/AC/AC-Practice3/ProgramMemory.v
+FC:/Users/coque/Desktop/AC/AC-Practice3/ProgramMemory.v
+R10
+R4
+r1
+!s85 0
+31
+!s108 1587596393.000000
+!s107 C:/Users/coque/Desktop/AC/AC-Practice3/ProgramMemory.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/coque/Desktop/AC/AC-Practice3/ProgramMemory.v|
+!i113 1
+R6
+R7
+n@program@memory
+vRegister
+Z16 !s110 1587596394
+!i10b 1
+!s100 egCIUc]UZ1M2z58M]>B@S3
+Ic?^X7fFQXA@MS;PeUih_n2
+R2
+R0
+w1560829354
+8C:/Users/coque/Desktop/AC/AC-Practice3/Register.v
+FC:/Users/coque/Desktop/AC/AC-Practice3/Register.v
 R14
-!i113 1
-R9
-R10
-vControl
-R117
-!i10b 1
-Z118 !s100 [5MFff;4_VBf]RX[X;eZN1
-Z119 Ilo:0;K4a_QmU8Ff^5W1]01
-R3
-R0
-Z120 w1585536640
-Z121 8C:/Users/coque/Desktop/AC/AC-Practice2/Control.v
-Z122 FC:/Users/coque/Desktop/AC/AC-Practice2/Control.v
-R24
-R6
+R4
 r1
 !s85 0
 31
-!s108 1585639291.000000
-Z123 !s107 C:/Users/coque/Desktop/AC/AC-Practice2/Control.v|
-Z124 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/coque/Desktop/AC/AC-Practice2/Control.v|
+Z17 !s108 1587596394.000000
+!s107 C:/Users/coque/Desktop/AC/AC-Practice3/Register.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/coque/Desktop/AC/AC-Practice3/Register.v|
 !i113 1
-R9
-R10
-Z125 n@control
-vControl
-R113
-!i10b 1
-R118
-R119
-R3
-R0
-R120
-R121
-R122
-R24
 R6
-r1
-!s85 0
-31
-R116
-R123
-R124
-!i113 1
-R9
-R10
-R125
-vDataMemory
-Z126 !s110 1585639328
-!i10b 1
-Z127 !s100 0WnR:]IZjSe]@JAj8YFja3
-Z128 I:[]BgMl7k22d><4:0UWR;2
-R3
-R0
-Z129 w1585595226
-R61
-R62
-R5
-R6
-r1
-!s85 0
-31
-Z130 !s108 1585639328.000000
-R17
-R18
-!i113 1
-R9
-R10
+R7
+n@register
+vRegisterFile
 R16
-vDataMemory
-Z131 !s110 1585639292
 !i10b 1
-R127
-R128
-R3
+!s100 iRCaBoP=AVEo`Pldi`c<00
+IJ2c`FDlcJYOAl>`^7][aE1
+R2
 R0
-R129
-R61
-R62
-R5
-R6
+w1560829350
+8C:/Users/coque/Desktop/AC/AC-Practice3/RegisterFile.v
+FC:/Users/coque/Desktop/AC/AC-Practice3/RegisterFile.v
+R10
+R4
 r1
 !s85 0
 31
-Z132 !s108 1585639292.000000
 R17
-R18
+!s107 C:/Users/coque/Desktop/AC/AC-Practice3/RegisterFile.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/coque/Desktop/AC/AC-Practice3/RegisterFile.v|
 !i113 1
-R9
-R10
-vDecoderRegisterFile
-R131
-!i10b 1
-Z133 !s100 F1VSWfob<5:Z_;L=c07hJ3
-Z134 I>Z[3bUJlHC5BmozkcUjm;0
-R3
-R0
-R63
-R64
-R65
-R20
 R6
-r1
-!s85 0
-31
-R132
-R21
-R22
-!i113 1
-R9
-R10
-R19
-vDecoderRegisterFile
-R126
-!i10b 1
-R133
-R134
-R3
-R0
-R63
-R64
-R65
-R20
-R6
-r1
-!s85 0
-31
-R130
-R21
-R22
-!i113 1
-R9
-R10
-vMIPS_Processor
-Z135 !s110 1585639329
-!i10b 1
-Z136 !s100 JfWQ8^2aD6JVRV@>FCaaP0
-Z137 IQbhDjBhL23FAR2@]CEVWD0
-R3
-R0
-Z138 w1585612443
-Z139 8C:/Users/coque/Desktop/AC/AC-Practice2/MIPS_Processor.v
-Z140 FC:/Users/coque/Desktop/AC/AC-Practice2/MIPS_Processor.v
-Z141 L0 11
-R6
-r1
-!s85 0
-31
-Z142 !s108 1585639329.000000
-Z143 !s107 C:/Users/coque/Desktop/AC/AC-Practice2/MIPS_Processor.v|
-Z144 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/coque/Desktop/AC/AC-Practice2/MIPS_Processor.v|
-!i113 1
-R9
-R10
-Z145 n@m@i@p@s_@processor
-vMIPS_Processor
-!s110 1585639293
-!i10b 1
-R136
-R137
-R3
-R0
-R138
-R139
-R140
-R141
-R6
-r1
-!s85 0
-31
-Z146 !s108 1585639293.000000
-R143
-R144
-!i113 1
-R9
-R10
-R145
-vMIPS_Processor_TB
-Z147 !s110 1585639294
-!i10b 1
-Z148 !s100 7O6XXMEA<WOOAzVN:PP@53
-Z149 IkYbZlSa7L<KIUXP=?zUk32
-R3
-R0
-Z150 w1585445097
-R66
-R67
-R109
-R6
-r1
-!s85 0
-31
-R146
-R26
-R27
-!i113 1
-R9
-R10
-R23
-vMIPS_Processor_TB
-R135
-!i10b 1
-R148
-R149
-R3
-R0
-R150
-R66
-R67
-R109
-R6
-r1
-!s85 0
-31
-R142
-R26
-R27
-!i113 1
-R9
-R10
-vMultiplexer2to1
-Z151 !s110 1585639330
-!i10b 1
-Z152 !s100 F48Y>?kNP3VGSJ<6PZ3Z<0
-Z153 I_Qc5W6?=nGhb10ROjjLIm3
-R3
-R0
-R68
-R69
-R70
-R5
-R6
-r1
-!s85 0
-31
-Z154 !s108 1585639330.000000
-R29
-R30
-!i113 1
-R9
-R10
-R28
-vMultiplexer2to1
-R147
-!i10b 1
-R152
-R153
-R3
-R0
-R68
-R69
-R70
-R5
-R6
-r1
-!s85 0
-31
-Z155 !s108 1585639294.000000
-R29
-R30
-!i113 1
-R9
-R10
-vMUXRegisterFile
-R147
-!i10b 1
-Z156 !s100 <^j`[[]Fjj[]CWW`3JSFT0
-Z157 I43bGYBWbB?89EVED7i@>e1
-R3
-R0
-R71
-R72
-R73
-L0 2
-R6
-r1
-!s85 0
-31
-R155
-R32
-R33
-!i113 1
-R9
-R10
-R31
-vMUXRegisterFile
-R151
-!i10b 1
-R156
-R157
-R3
-R0
-R71
-R72
-R73
-L0 2
-R6
-r1
-!s85 0
-31
-R154
-R32
-R33
-!i113 1
-R9
-R10
-vPC_Register
-Z158 !s110 1585639331
-!i10b 1
-Z159 !s100 _;b?E28JEcZ?mB]466AVZ0
-Z160 I_mQ2]3MP>Jii:515kPKhf2
-R3
-R0
-R74
-R75
-R76
-R109
-R6
-r1
-!s85 0
-31
-Z161 !s108 1585639331.000000
-R36
-R37
-!i113 1
-R9
-R10
-R34
-vPC_Register
-Z162 !s110 1585639295
-!i10b 1
-R159
-R160
-R3
-R0
-R74
-R75
-R76
-R109
-R6
-r1
-!s85 0
-31
-Z163 !s108 1585639295.000000
-R36
-R37
-!i113 1
-R9
-R10
-vProgramMemory
-R162
-!i10b 1
-Z164 !s100 4ldmLPOl41:N8Gn=<N1S<1
-Z165 If@7JgWQ;3;1Ug>OhH9ma:3
-R3
-R0
-Z166 w1585639191
-R77
-R78
-R109
-R6
-r1
-!s85 0
-31
-R163
-R39
-R40
-!i113 1
-R9
-R10
-R38
-vProgramMemory
-R158
-!i10b 1
-R164
-R165
-R3
-R0
-R166
-R77
-R78
-R109
-R6
-r1
-!s85 0
-31
-R161
-R39
-R40
-!i113 1
-R9
-R10
-vRegister
-!s110 1585639332
-!i10b 1
-Z167 !s100 egCIUc]UZ1M2z58M]>B@S3
-Z168 ICWKS1D=Q`Ni<kX`@ioNCW0
-R3
-R0
-R79
-R80
-R81
-R20
-R6
-r1
-!s85 0
-31
-Z169 !s108 1585639332.000000
-R44
-R45
-!i113 1
-R9
-R10
-R41
-vRegister
-!s110 1585639296
-!i10b 1
-R167
-R168
-R3
-R0
-R79
-R80
-R81
-R20
-R6
-r1
-!s85 0
-31
-Z170 !s108 1585639296.000000
-R44
-R45
-!i113 1
-R9
-R10
-vRegisterFile
-Z171 !s110 1585639297
-!i10b 1
-Z172 !s100 iRCaBoP=AVEo`Pldi`c<00
-Z173 Ie7H6_5Aci_moRJ54iACkT1
-R3
-R0
-R82
-R83
-R84
-R109
-R6
-r1
-!s85 0
-31
-R170
-R47
-R48
-!i113 1
-R9
-R10
-R46
-vRegisterFile
-Z174 !s110 1585639333
-!i10b 1
-R172
-R173
-R3
-R0
-R82
-R83
-R84
-R109
-R6
-r1
-!s85 0
-31
-R169
-R47
-R48
-!i113 1
-R9
-R10
+R7
+n@register@file
 vShiftLeft2
-R174
+!s110 1587596395
 !i10b 1
-Z175 !s100 Hi:hlBR22G;<919E5iIcC3
-Z176 IZ`a9O;6Y`I]T:TofcZFU]3
-R3
+!s100 Hi:hlBR22G;<919E5iIcC3
+I3>I<QLodFj1QSTWNo9d0z2
+R2
 R0
-R85
-R86
-R87
-R20
-R6
+w1560829345
+8C:/Users/coque/Desktop/AC/AC-Practice3/ShiftLeft2.v
+FC:/Users/coque/Desktop/AC/AC-Practice3/ShiftLeft2.v
+R14
+R4
 r1
 !s85 0
 31
-!s108 1585639333.000000
-R50
-R51
+!s108 1587596395.000000
+!s107 C:/Users/coque/Desktop/AC/AC-Practice3/ShiftLeft2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/coque/Desktop/AC/AC-Practice3/ShiftLeft2.v|
 !i113 1
-R9
-R10
-R49
-vShiftLeft2
-R171
-!i10b 1
-R175
-R176
-R3
-R0
-R85
-R86
-R87
-R20
 R6
-r1
-!s85 0
-31
-!s108 1585639297.000000
-R50
-R51
-!i113 1
-R9
-R10
+R7
+n@shift@left2
 vSignExtend
-R91
+!s110 1587596382
 !i10b 1
-Z177 !s100 I1D7fe4B<UD12_E`@TC:T3
-Z178 I]XT2E6L63`R7dnNA8[INB2
-R3
+!s100 I1D7fe4B<UD12_E`@TC:T3
+IfQ=h>iIQ[U>LD5D`76PEc1
+R2
 R0
-R88
-R89
-R90
-R24
-R6
+w1560829341
+8C:/Users/coque/Desktop/AC/AC-Practice3/SignExtend.v
+FC:/Users/coque/Desktop/AC/AC-Practice3/SignExtend.v
+R12
+R4
 r1
 !s85 0
 31
-!s108 1585639325.000000
-R53
-R54
+R5
+!s107 C:/Users/coque/Desktop/AC/AC-Practice3/SignExtend.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/coque/Desktop/AC/AC-Practice3/SignExtend.v|
 !i113 1
-R9
-R10
-R52
-vSignExtend
-!s110 1585639289
-!i10b 1
-R177
-R178
-R3
-R0
-R88
-R89
-R90
-R24
 R6
-r1
-!s85 0
-31
-!s108 1585639289.000000
-R53
-R54
-!i113 1
-R9
-R10
+R7
+n@sign@extend

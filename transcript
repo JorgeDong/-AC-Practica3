@@ -1,25 +1,6 @@
-# Compile of SignExtend.v was successful.
-# Compile of Adder32bits.v was successful.
-# Compile of ALU.v was successful.
-# Compile of ALUControl.v was successful.
-# Compile of ANDGate.v was successful.
-# Compile of Control.v was successful.
-# Compile of DataMemory.v was successful.
-# Compile of DecoderRegisterFile.v was successful.
-# Compile of Definitions.v was successful.
-# Compile of MIPS_Processor.v was successful.
-# Compile of MIPS_Processor_TB.v was successful.
-# Compile of Multiplexer2to1.v was successful.
-# Compile of MUXRegisterFile.v was successful.
-# Compile of PC_Register.v was successful.
-# Compile of ProgramMemory.v was successful.
-# Compile of Register.v was successful.
-# Compile of RegisterFile.v was successful.
-# Compile of ShiftLeft2.v was successful.
-# 18 compiles, 0 failed with no errors.
 vsim -gui work.MIPS_Processor_TB
 # vsim -gui work.MIPS_Processor_TB 
-# Start time: 00:52:13 on Mar 31,2020
+# Start time: 15:59:59 on Apr 22,2020
 # Loading work.MIPS_Processor_TB
 # Loading work.MIPS_Processor
 # Loading work.Control
@@ -36,51 +17,103 @@ vsim -gui work.MIPS_Processor_TB
 # Loading work.ALUControl
 # Loading work.ALU
 # Loading work.DataMemory
-add wave sim:/MIPS_Processor_TB/*
-add wave -position end  sim:/MIPS_Processor_TB/DUV/Memory/ReadData
-add wave -position end  sim:/MIPS_Processor_TB/DUV/Memory/ram
-add wave -position end  sim:/MIPS_Processor_TB/DUV/Memory/ReadDataAux
-add wave -position 8  sim:/MIPS_Processor_TB/DUV/Memory/Address
-add wave -position end sim:/MIPS_Processor_TB/DUV/MUX_For_Brances/*
+# Loading work.Pipe
+# ** Warning: (vsim-3015) C:/Users/coque/Desktop/AC/AC-Practice3/MIPS_Processor.v(369): [PCDPC] - Port size (3) does not match connection size (1) for port 'ALUOp'. The port definition is at: C:/Users/coque/Desktop/AC/AC-Practice3/ALUControl.v(17).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/ArithmeticLogicUnitControl File: C:/Users/coque/Desktop/AC/AC-Practice3/ALUControl.v
+# ** Warning: (vsim-3015) C:/Users/coque/Desktop/AC/AC-Practice3/MIPS_Processor.v(446): [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/IF_ID File: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v
+# ** Warning: (vsim-3015) C:/Users/coque/Desktop/AC/AC-Practice3/MIPS_Processor.v(464): [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/ID_EX File: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v
+# ** Warning: (vsim-3015) C:/Users/coque/Desktop/AC/AC-Practice3/MIPS_Processor.v(464): [PCDPC] - Port size (150) does not match connection size (151) for port 'DataInput'. The port definition is at: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v(22).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/ID_EX File: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v
+# ** Warning: (vsim-3015) C:/Users/coque/Desktop/AC/AC-Practice3/MIPS_Processor.v(464): [PCDPC] - Port size (150) does not match connection size (151) for port 'DataOutput'. The port definition is at: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v(25).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/ID_EX File: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v
+# ** Warning: (vsim-3015) C:/Users/coque/Desktop/AC/AC-Practice3/MIPS_Processor.v(514): [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/EX_MEM File: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v
+# ** Warning: (vsim-3015) C:/Users/coque/Desktop/AC/AC-Practice3/MIPS_Processor.v(572): [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MEM_WB File: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v
+run
+run
+run
+add wave -position end  sim:/MIPS_Processor_TB/reset
+add wave -position end  sim:/MIPS_Processor_TB/clk
+add wave -position end  sim:/MIPS_Processor_TB/PortOut
+add wave -position end  sim:/MIPS_Processor_TB/PortIn
+add wave -position end  sim:/MIPS_Processor_TB/ALUResultOut
+run
 run
 restart
+# ** Warning: (vsim-3015) C:/Users/coque/Desktop/AC/AC-Practice3/MIPS_Processor.v(369): [PCDPC] - Port size (3) does not match connection size (1) for port 'ALUOp'. The port definition is at: C:/Users/coque/Desktop/AC/AC-Practice3/ALUControl.v(17).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/ArithmeticLogicUnitControl File: C:/Users/coque/Desktop/AC/AC-Practice3/ALUControl.v
+# ** Warning: (vsim-3015) C:/Users/coque/Desktop/AC/AC-Practice3/MIPS_Processor.v(446): [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/IF_ID File: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v
+# ** Warning: (vsim-3015) C:/Users/coque/Desktop/AC/AC-Practice3/MIPS_Processor.v(464): [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/ID_EX File: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v
+# ** Warning: (vsim-3015) C:/Users/coque/Desktop/AC/AC-Practice3/MIPS_Processor.v(464): [PCDPC] - Port size (150) does not match connection size (151) for port 'DataInput'. The port definition is at: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v(22).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/ID_EX File: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v
+# ** Warning: (vsim-3015) C:/Users/coque/Desktop/AC/AC-Practice3/MIPS_Processor.v(464): [PCDPC] - Port size (150) does not match connection size (151) for port 'DataOutput'. The port definition is at: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v(25).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/ID_EX File: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v
+# ** Warning: (vsim-3015) C:/Users/coque/Desktop/AC/AC-Practice3/MIPS_Processor.v(514): [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/EX_MEM File: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v
+# ** Warning: (vsim-3015) C:/Users/coque/Desktop/AC/AC-Practice3/MIPS_Processor.v(572): [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MEM_WB File: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v
 run
-# Compile of SignExtend.v was successful.
-# Compile of Adder32bits.v was successful.
-# Compile of ALU.v was successful.
-# Compile of ALUControl.v was successful.
-# Compile of ANDGate.v was successful.
-# Compile of Control.v was successful.
-# Compile of DataMemory.v was successful.
-# Compile of DecoderRegisterFile.v was successful.
-# Compile of Definitions.v was successful.
-# Compile of MIPS_Processor.v was successful.
-# Compile of MIPS_Processor_TB.v was successful.
-# Compile of Multiplexer2to1.v was successful.
-# Compile of MUXRegisterFile.v was successful.
-# Compile of PC_Register.v was successful.
-# Compile of ProgramMemory.v was successful.
-# Compile of Register.v was successful.
-# Compile of RegisterFile.v was successful.
-# Compile of ShiftLeft2.v was successful.
-# 18 compiles, 0 failed with no errors.
-# Error Undo Start called while in Redo capture mode
-restart
-# Loading work.MIPS_Processor
-# Loading work.Control
-# Loading work.PC_Register
-# Loading work.Adder32bits
-# Loading work.Multiplexer2to1
-# Loading work.ShiftLeft2
-# Loading work.Register
-# Loading work.SignExtend
-# Loading work.ALUControl
-# Loading work.ALU
-# Loading work.DataMemory
 run
+run
+run
+run
+run
+add wave -position end  sim:/MIPS_Processor_TB/DUV/Register_File/WriteRegister
 add wave -position end  sim:/MIPS_Processor_TB/DUV/Register_File/WriteData
-run
+add wave -position end  sim:/MIPS_Processor_TB/DUV/Register_File/SelectRegister_wire
+add wave -position end  sim:/MIPS_Processor_TB/DUV/Register_File/reset
+add wave -position end  sim:/MIPS_Processor_TB/DUV/Register_File/RegWrite
+add wave -position end  sim:/MIPS_Processor_TB/DUV/Register_File/ReadRegister2
+add wave -position end  sim:/MIPS_Processor_TB/DUV/Register_File/ReadRegister1
+add wave -position end  sim:/MIPS_Processor_TB/DUV/Register_File/ReadData2
+add wave -position end  sim:/MIPS_Processor_TB/DUV/Register_File/ReadData1
+add wave -position end  sim:/MIPS_Processor_TB/DUV/Register_File/N
+add wave -position end  sim:/MIPS_Processor_TB/DUV/Register_File/Intercnection_wire
+add wave -position end  sim:/MIPS_Processor_TB/DUV/Register_File/clk
 restart
+# ** Warning: (vsim-3015) C:/Users/coque/Desktop/AC/AC-Practice3/MIPS_Processor.v(369): [PCDPC] - Port size (3) does not match connection size (1) for port 'ALUOp'. The port definition is at: C:/Users/coque/Desktop/AC/AC-Practice3/ALUControl.v(17).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/ArithmeticLogicUnitControl File: C:/Users/coque/Desktop/AC/AC-Practice3/ALUControl.v
+# ** Warning: (vsim-3015) C:/Users/coque/Desktop/AC/AC-Practice3/MIPS_Processor.v(446): [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/IF_ID File: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v
+# ** Warning: (vsim-3015) C:/Users/coque/Desktop/AC/AC-Practice3/MIPS_Processor.v(464): [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/ID_EX File: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v
+# ** Warning: (vsim-3015) C:/Users/coque/Desktop/AC/AC-Practice3/MIPS_Processor.v(464): [PCDPC] - Port size (150) does not match connection size (151) for port 'DataInput'. The port definition is at: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v(22).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/ID_EX File: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v
+# ** Warning: (vsim-3015) C:/Users/coque/Desktop/AC/AC-Practice3/MIPS_Processor.v(464): [PCDPC] - Port size (150) does not match connection size (151) for port 'DataOutput'. The port definition is at: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v(25).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/ID_EX File: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v
+# ** Warning: (vsim-3015) C:/Users/coque/Desktop/AC/AC-Practice3/MIPS_Processor.v(514): [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/EX_MEM File: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v
+# ** Warning: (vsim-3015) C:/Users/coque/Desktop/AC/AC-Practice3/MIPS_Processor.v(572): [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MEM_WB File: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v
+run
+run
+run
+run
+run
+run
+add wave -position end  sim:/MIPS_Processor_TB/DUV/Memory/ram
+restart
+# ** Warning: (vsim-3015) C:/Users/coque/Desktop/AC/AC-Practice3/MIPS_Processor.v(369): [PCDPC] - Port size (3) does not match connection size (1) for port 'ALUOp'. The port definition is at: C:/Users/coque/Desktop/AC/AC-Practice3/ALUControl.v(17).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/ArithmeticLogicUnitControl File: C:/Users/coque/Desktop/AC/AC-Practice3/ALUControl.v
+# ** Warning: (vsim-3015) C:/Users/coque/Desktop/AC/AC-Practice3/MIPS_Processor.v(446): [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/IF_ID File: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v
+# ** Warning: (vsim-3015) C:/Users/coque/Desktop/AC/AC-Practice3/MIPS_Processor.v(464): [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/ID_EX File: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v
+# ** Warning: (vsim-3015) C:/Users/coque/Desktop/AC/AC-Practice3/MIPS_Processor.v(464): [PCDPC] - Port size (150) does not match connection size (151) for port 'DataInput'. The port definition is at: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v(22).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/ID_EX File: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v
+# ** Warning: (vsim-3015) C:/Users/coque/Desktop/AC/AC-Practice3/MIPS_Processor.v(464): [PCDPC] - Port size (150) does not match connection size (151) for port 'DataOutput'. The port definition is at: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v(25).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/ID_EX File: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v
+# ** Warning: (vsim-3015) C:/Users/coque/Desktop/AC/AC-Practice3/MIPS_Processor.v(514): [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/EX_MEM File: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v
+# ** Warning: (vsim-3015) C:/Users/coque/Desktop/AC/AC-Practice3/MIPS_Processor.v(572): [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MEM_WB File: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v
+run
+run
 run
 # Compile of SignExtend.v was successful.
 # Compile of Adder32bits.v was successful.
@@ -96,11 +129,12 @@ run
 # Compile of Multiplexer2to1.v was successful.
 # Compile of MUXRegisterFile.v was successful.
 # Compile of PC_Register.v was successful.
+# Compile of pipe.v was successful.
 # Compile of ProgramMemory.v was successful.
 # Compile of Register.v was successful.
 # Compile of RegisterFile.v was successful.
 # Compile of ShiftLeft2.v was successful.
-# 18 compiles, 0 failed with no errors.
+# 19 compiles, 0 failed with no errors.
 restart
 # Loading work.MIPS_Processor_TB
 # Loading work.MIPS_Processor
@@ -118,6 +152,43 @@ restart
 # Loading work.ALUControl
 # Loading work.ALU
 # Loading work.DataMemory
+# Loading work.Pipe
+# ** Warning: (vsim-3015) C:/Users/coque/Desktop/AC/AC-Practice3/MIPS_Processor.v(369): [PCDPC] - Port size (3) does not match connection size (1) for port 'ALUOp'. The port definition is at: C:/Users/coque/Desktop/AC/AC-Practice3/ALUControl.v(17).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/ArithmeticLogicUnitControl File: C:/Users/coque/Desktop/AC/AC-Practice3/ALUControl.v
+# ** Warning: (vsim-3015) C:/Users/coque/Desktop/AC/AC-Practice3/MIPS_Processor.v(446): [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/IF_ID File: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v
+# ** Warning: (vsim-3015) C:/Users/coque/Desktop/AC/AC-Practice3/MIPS_Processor.v(464): [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/ID_EX File: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v
+# ** Warning: (vsim-3015) C:/Users/coque/Desktop/AC/AC-Practice3/MIPS_Processor.v(464): [PCDPC] - Port size (150) does not match connection size (151) for port 'DataInput'. The port definition is at: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v(22).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/ID_EX File: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v
+# ** Warning: (vsim-3015) C:/Users/coque/Desktop/AC/AC-Practice3/MIPS_Processor.v(464): [PCDPC] - Port size (150) does not match connection size (151) for port 'DataOutput'. The port definition is at: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v(25).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/ID_EX File: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v
+# ** Warning: (vsim-3015) C:/Users/coque/Desktop/AC/AC-Practice3/MIPS_Processor.v(514): [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/EX_MEM File: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v
+# ** Warning: (vsim-3015) C:/Users/coque/Desktop/AC/AC-Practice3/MIPS_Processor.v(572): [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MEM_WB File: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v
+run
+run
+run
+add wave -position end  sim:/MIPS_Processor_TB/DUV/SignExtendForConstants/SignExtendOutput
+add wave -position end  sim:/MIPS_Processor_TB/DUV/SignExtendForConstants/DataInput
+restart
+# ** Warning: (vsim-3015) C:/Users/coque/Desktop/AC/AC-Practice3/MIPS_Processor.v(369): [PCDPC] - Port size (3) does not match connection size (1) for port 'ALUOp'. The port definition is at: C:/Users/coque/Desktop/AC/AC-Practice3/ALUControl.v(17).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/ArithmeticLogicUnitControl File: C:/Users/coque/Desktop/AC/AC-Practice3/ALUControl.v
+# ** Warning: (vsim-3015) C:/Users/coque/Desktop/AC/AC-Practice3/MIPS_Processor.v(446): [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/IF_ID File: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v
+# ** Warning: (vsim-3015) C:/Users/coque/Desktop/AC/AC-Practice3/MIPS_Processor.v(464): [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/ID_EX File: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v
+# ** Warning: (vsim-3015) C:/Users/coque/Desktop/AC/AC-Practice3/MIPS_Processor.v(464): [PCDPC] - Port size (150) does not match connection size (151) for port 'DataInput'. The port definition is at: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v(22).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/ID_EX File: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v
+# ** Warning: (vsim-3015) C:/Users/coque/Desktop/AC/AC-Practice3/MIPS_Processor.v(464): [PCDPC] - Port size (150) does not match connection size (151) for port 'DataOutput'. The port definition is at: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v(25).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/ID_EX File: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v
+# ** Warning: (vsim-3015) C:/Users/coque/Desktop/AC/AC-Practice3/MIPS_Processor.v(514): [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/EX_MEM File: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v
+# ** Warning: (vsim-3015) C:/Users/coque/Desktop/AC/AC-Practice3/MIPS_Processor.v(572): [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MEM_WB File: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v
+run
+run
 run
 # Compile of SignExtend.v was successful.
 # Compile of Adder32bits.v was successful.
@@ -133,48 +204,12 @@ run
 # Compile of Multiplexer2to1.v was successful.
 # Compile of MUXRegisterFile.v was successful.
 # Compile of PC_Register.v was successful.
+# Compile of pipe.v was successful.
 # Compile of ProgramMemory.v was successful.
 # Compile of Register.v was successful.
 # Compile of RegisterFile.v was successful.
 # Compile of ShiftLeft2.v was successful.
-# 18 compiles, 0 failed with no errors.
-restart
-# Loading work.MIPS_Processor
-# Loading work.Control
-# Loading work.PC_Register
-# Loading work.Adder32bits
-# Loading work.Multiplexer2to1
-# Loading work.ShiftLeft2
-# Loading work.Register
-# Loading work.SignExtend
-# Loading work.ALUControl
-# Loading work.ALU
-# Loading work.DataMemory
-run
-add wave -position end sim:/MIPS_Processor_TB/DUV/MUX_For_J/*
-restart
-run
-restart
-run
-# Compile of SignExtend.v was successful.
-# Compile of Adder32bits.v was successful.
-# Compile of ALU.v was successful.
-# Compile of ALUControl.v was successful.
-# Compile of ANDGate.v was successful.
-# Compile of Control.v was successful.
-# Compile of DataMemory.v was successful.
-# Compile of DecoderRegisterFile.v was successful.
-# Compile of Definitions.v was successful.
-# Compile of MIPS_Processor.v was successful.
-# Compile of MIPS_Processor_TB.v was successful.
-# Compile of Multiplexer2to1.v was successful.
-# Compile of MUXRegisterFile.v was successful.
-# Compile of PC_Register.v was successful.
-# Compile of ProgramMemory.v was successful.
-# Compile of Register.v was successful.
-# Compile of RegisterFile.v was successful.
-# Compile of ShiftLeft2.v was successful.
-# 18 compiles, 0 failed with no errors.
+# 19 compiles, 0 failed with no errors.
 restart
 # Loading work.MIPS_Processor_TB
 # Loading work.MIPS_Processor
@@ -192,6 +227,66 @@ restart
 # Loading work.ALUControl
 # Loading work.ALU
 # Loading work.DataMemory
+# Loading work.Pipe
+# ** Warning: (vsim-3015) C:/Users/coque/Desktop/AC/AC-Practice3/MIPS_Processor.v(369): [PCDPC] - Port size (3) does not match connection size (1) for port 'ALUOp'. The port definition is at: C:/Users/coque/Desktop/AC/AC-Practice3/ALUControl.v(17).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/ArithmeticLogicUnitControl File: C:/Users/coque/Desktop/AC/AC-Practice3/ALUControl.v
+# ** Warning: (vsim-3015) C:/Users/coque/Desktop/AC/AC-Practice3/MIPS_Processor.v(446): [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/IF_ID File: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v
+# ** Warning: (vsim-3015) C:/Users/coque/Desktop/AC/AC-Practice3/MIPS_Processor.v(464): [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/ID_EX File: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v
+# ** Warning: (vsim-3015) C:/Users/coque/Desktop/AC/AC-Practice3/MIPS_Processor.v(464): [PCDPC] - Port size (150) does not match connection size (151) for port 'DataInput'. The port definition is at: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v(22).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/ID_EX File: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v
+# ** Warning: (vsim-3015) C:/Users/coque/Desktop/AC/AC-Practice3/MIPS_Processor.v(464): [PCDPC] - Port size (150) does not match connection size (151) for port 'DataOutput'. The port definition is at: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v(25).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/ID_EX File: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v
+# ** Warning: (vsim-3015) C:/Users/coque/Desktop/AC/AC-Practice3/MIPS_Processor.v(514): [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/EX_MEM File: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v
+# ** Warning: (vsim-3015) C:/Users/coque/Desktop/AC/AC-Practice3/MIPS_Processor.v(572): [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MEM_WB File: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v
+run
+run
+run
+run
+add wave -position end  sim:/MIPS_Processor_TB/DUV/ArithmeticLogicUnitControl/I_Type_ORI
+run
+restart
+# ** Warning: (vsim-3015) C:/Users/coque/Desktop/AC/AC-Practice3/MIPS_Processor.v(369): [PCDPC] - Port size (3) does not match connection size (1) for port 'ALUOp'. The port definition is at: C:/Users/coque/Desktop/AC/AC-Practice3/ALUControl.v(17).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/ArithmeticLogicUnitControl File: C:/Users/coque/Desktop/AC/AC-Practice3/ALUControl.v
+# ** Warning: (vsim-3015) C:/Users/coque/Desktop/AC/AC-Practice3/MIPS_Processor.v(446): [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/IF_ID File: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v
+# ** Warning: (vsim-3015) C:/Users/coque/Desktop/AC/AC-Practice3/MIPS_Processor.v(464): [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/ID_EX File: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v
+# ** Warning: (vsim-3015) C:/Users/coque/Desktop/AC/AC-Practice3/MIPS_Processor.v(464): [PCDPC] - Port size (150) does not match connection size (151) for port 'DataInput'. The port definition is at: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v(22).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/ID_EX File: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v
+# ** Warning: (vsim-3015) C:/Users/coque/Desktop/AC/AC-Practice3/MIPS_Processor.v(464): [PCDPC] - Port size (150) does not match connection size (151) for port 'DataOutput'. The port definition is at: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v(25).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/ID_EX File: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v
+# ** Warning: (vsim-3015) C:/Users/coque/Desktop/AC/AC-Practice3/MIPS_Processor.v(514): [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/EX_MEM File: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v
+# ** Warning: (vsim-3015) C:/Users/coque/Desktop/AC/AC-Practice3/MIPS_Processor.v(572): [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MEM_WB File: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v
+run
+run
+run
+add wave -position end  sim:/MIPS_Processor_TB/DUV/ArithmeticLogicUnitControl/ALUOperation
+add wave -position end  sim:/MIPS_Processor_TB/DUV/ArithmeticLogicUnitControl/ALUOp
+add wave -position end  sim:/MIPS_Processor_TB/DUV/ArithmeticLogicUnitControl/ALUFunction
+add wave -position end  sim:/MIPS_Processor_TB/DUV/ArithmeticLogicUnitControl/ALUControlValues
+restart
+# ** Warning: (vsim-3015) C:/Users/coque/Desktop/AC/AC-Practice3/MIPS_Processor.v(369): [PCDPC] - Port size (3) does not match connection size (1) for port 'ALUOp'. The port definition is at: C:/Users/coque/Desktop/AC/AC-Practice3/ALUControl.v(17).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/ArithmeticLogicUnitControl File: C:/Users/coque/Desktop/AC/AC-Practice3/ALUControl.v
+# ** Warning: (vsim-3015) C:/Users/coque/Desktop/AC/AC-Practice3/MIPS_Processor.v(446): [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/IF_ID File: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v
+# ** Warning: (vsim-3015) C:/Users/coque/Desktop/AC/AC-Practice3/MIPS_Processor.v(464): [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/ID_EX File: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v
+# ** Warning: (vsim-3015) C:/Users/coque/Desktop/AC/AC-Practice3/MIPS_Processor.v(464): [PCDPC] - Port size (150) does not match connection size (151) for port 'DataInput'. The port definition is at: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v(22).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/ID_EX File: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v
+# ** Warning: (vsim-3015) C:/Users/coque/Desktop/AC/AC-Practice3/MIPS_Processor.v(464): [PCDPC] - Port size (150) does not match connection size (151) for port 'DataOutput'. The port definition is at: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v(25).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/ID_EX File: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v
+# ** Warning: (vsim-3015) C:/Users/coque/Desktop/AC/AC-Practice3/MIPS_Processor.v(514): [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/EX_MEM File: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v
+# ** Warning: (vsim-3015) C:/Users/coque/Desktop/AC/AC-Practice3/MIPS_Processor.v(572): [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MEM_WB File: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v
+run
+run
 run
 # Compile of SignExtend.v was successful.
 # Compile of Adder32bits.v was successful.
@@ -207,45 +302,12 @@ run
 # Compile of Multiplexer2to1.v was successful.
 # Compile of MUXRegisterFile.v was successful.
 # Compile of PC_Register.v was successful.
+# Compile of pipe.v was successful.
 # Compile of ProgramMemory.v was successful.
 # Compile of Register.v was successful.
 # Compile of RegisterFile.v was successful.
 # Compile of ShiftLeft2.v was successful.
-# 18 compiles, 0 failed with no errors.
-restart
-# Loading work.MIPS_Processor
-# Loading work.Control
-# Loading work.PC_Register
-# Loading work.Adder32bits
-# Loading work.Multiplexer2to1
-# Loading work.ShiftLeft2
-# Loading work.Register
-# Loading work.SignExtend
-# Loading work.ALUControl
-# Loading work.ALU
-# Loading work.DataMemory
-run
-restart
-run
-# Compile of SignExtend.v was successful.
-# Compile of Adder32bits.v was successful.
-# Compile of ALU.v was successful.
-# Compile of ALUControl.v was successful.
-# Compile of ANDGate.v was successful.
-# Compile of Control.v was successful.
-# Compile of DataMemory.v was successful.
-# Compile of DecoderRegisterFile.v was successful.
-# Compile of Definitions.v was successful.
-# Compile of MIPS_Processor.v was successful.
-# Compile of MIPS_Processor_TB.v was successful.
-# Compile of Multiplexer2to1.v was successful.
-# Compile of MUXRegisterFile.v was successful.
-# Compile of PC_Register.v was successful.
-# Compile of ProgramMemory.v was successful.
-# Compile of Register.v was successful.
-# Compile of RegisterFile.v was successful.
-# Compile of ShiftLeft2.v was successful.
-# 18 compiles, 0 failed with no errors.
+# 19 compiles, 0 failed with no errors.
 restart
 # Loading work.MIPS_Processor_TB
 # Loading work.MIPS_Processor
@@ -263,62 +325,21 @@ restart
 # Loading work.ALUControl
 # Loading work.ALU
 # Loading work.DataMemory
-run
-add wave -position 10  sim:/MIPS_Processor_TB/DUV/Memory/ram[7]
-add wave -position 11  sim:/MIPS_Processor_TB/DUV/Memory/ram[6]
-add wave -position 12  sim:/MIPS_Processor_TB/DUV/Memory/ram[5]
-add wave -position 13  sim:/MIPS_Processor_TB/DUV/Memory/ram[4]
-add wave -position 14  sim:/MIPS_Processor_TB/DUV/Memory/ram[3]
-add wave -position 15  sim:/MIPS_Processor_TB/DUV/Memory/ram[2]
-add wave -position 16  sim:/MIPS_Processor_TB/DUV/Memory/ram[1]
-add wave -position 17  sim:/MIPS_Processor_TB/DUV/Memory/ram[0]
-add wave -position 19  sim:/MIPS_Processor_TB/DUV/Memory/ram[15]
-add wave -position 20  sim:/MIPS_Processor_TB/DUV/Memory/ram[14]
-add wave -position 21  sim:/MIPS_Processor_TB/DUV/Memory/ram[13]
-add wave -position 22  sim:/MIPS_Processor_TB/DUV/Memory/ram[12]
-add wave -position 23  sim:/MIPS_Processor_TB/DUV/Memory/ram[11]
-add wave -position 24  sim:/MIPS_Processor_TB/DUV/Memory/ram[10]
-add wave -position 25  sim:/MIPS_Processor_TB/DUV/Memory/ram[9]
-add wave -position 26  sim:/MIPS_Processor_TB/DUV/Memory/ram[8]
-add wave -position end  sim:/MIPS_Processor_TB/DUV/Memory/ram[23]
-add wave -position end  sim:/MIPS_Processor_TB/DUV/Memory/ram[22]
-add wave -position end  sim:/MIPS_Processor_TB/DUV/Memory/ram[21]
-add wave -position end  sim:/MIPS_Processor_TB/DUV/Memory/ram[20]
-add wave -position end  sim:/MIPS_Processor_TB/DUV/Memory/ram[19]
-add wave -position end  sim:/MIPS_Processor_TB/DUV/Memory/ram[18]
-add wave -position end  sim:/MIPS_Processor_TB/DUV/Memory/ram[17]
-add wave -position end  sim:/MIPS_Processor_TB/DUV/Memory/ram[16]
-# Compile of SignExtend.v was successful.
-# Compile of Adder32bits.v was successful.
-# Compile of ALU.v was successful.
-# Compile of ALUControl.v was successful.
-# Compile of ANDGate.v was successful.
-# Compile of Control.v was successful.
-# Compile of DataMemory.v was successful.
-# Compile of DecoderRegisterFile.v was successful.
-# Compile of Definitions.v was successful.
-# Compile of MIPS_Processor.v was successful.
-# Compile of MIPS_Processor_TB.v was successful.
-# Compile of Multiplexer2to1.v was successful.
-# Compile of MUXRegisterFile.v was successful.
-# Compile of PC_Register.v was successful.
-# Compile of ProgramMemory.v was successful.
-# Compile of Register.v was successful.
-# Compile of RegisterFile.v was successful.
-# Compile of ShiftLeft2.v was successful.
-# 18 compiles, 0 failed with no errors.
-restart
-# Loading work.MIPS_Processor
-# Loading work.Control
-# Loading work.PC_Register
-# Loading work.Adder32bits
-# Loading work.Multiplexer2to1
-# Loading work.ShiftLeft2
-# Loading work.Register
-# Loading work.SignExtend
-# Loading work.ALUControl
-# Loading work.ALU
-# Loading work.DataMemory
+# Loading work.Pipe
+# ** Warning: (vsim-3015) C:/Users/coque/Desktop/AC/AC-Practice3/MIPS_Processor.v(369): [PCDPC] - Port size (3) does not match connection size (1) for port 'ALUOp'. The port definition is at: C:/Users/coque/Desktop/AC/AC-Practice3/ALUControl.v(17).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/ArithmeticLogicUnitControl File: C:/Users/coque/Desktop/AC/AC-Practice3/ALUControl.v
+# ** Warning: (vsim-3015) C:/Users/coque/Desktop/AC/AC-Practice3/MIPS_Processor.v(446): [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/IF_ID File: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v
+# ** Warning: (vsim-3015) C:/Users/coque/Desktop/AC/AC-Practice3/MIPS_Processor.v(464): [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/ID_EX File: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v
+# ** Warning: (vsim-3015) C:/Users/coque/Desktop/AC/AC-Practice3/MIPS_Processor.v(464): [PCDPC] - Port size (150) does not match connection size (151) for port 'DataInput'. The port definition is at: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v(22).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/ID_EX File: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v
+# ** Warning: (vsim-3015) C:/Users/coque/Desktop/AC/AC-Practice3/MIPS_Processor.v(464): [PCDPC] - Port size (150) does not match connection size (151) for port 'DataOutput'. The port definition is at: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v(25).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/ID_EX File: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v
+# ** Warning: (vsim-3015) C:/Users/coque/Desktop/AC/AC-Practice3/MIPS_Processor.v(514): [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/EX_MEM File: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v
+# ** Warning: (vsim-3015) C:/Users/coque/Desktop/AC/AC-Practice3/MIPS_Processor.v(572): [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MEM_WB File: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v
 run
 run
 run
@@ -336,11 +357,12 @@ run
 # Compile of Multiplexer2to1.v was successful.
 # Compile of MUXRegisterFile.v was successful.
 # Compile of PC_Register.v was successful.
+# Compile of pipe.v was successful.
 # Compile of ProgramMemory.v was successful.
 # Compile of Register.v was successful.
 # Compile of RegisterFile.v was successful.
 # Compile of ShiftLeft2.v was successful.
-# 18 compiles, 0 failed with no errors.
+# 19 compiles, 0 failed with no errors.
 restart
 # Loading work.MIPS_Processor_TB
 # Loading work.MIPS_Processor
@@ -358,21 +380,123 @@ restart
 # Loading work.ALUControl
 # Loading work.ALU
 # Loading work.DataMemory
+# Loading work.Pipe
+# ** Warning: (vsim-3015) C:/Users/coque/Desktop/AC/AC-Practice3/MIPS_Processor.v(369): [PCDPC] - Port size (3) does not match connection size (1) for port 'ALUOp'. The port definition is at: C:/Users/coque/Desktop/AC/AC-Practice3/ALUControl.v(17).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/ArithmeticLogicUnitControl File: C:/Users/coque/Desktop/AC/AC-Practice3/ALUControl.v
+# ** Warning: (vsim-3015) C:/Users/coque/Desktop/AC/AC-Practice3/MIPS_Processor.v(446): [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/IF_ID File: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v
+# ** Warning: (vsim-3015) C:/Users/coque/Desktop/AC/AC-Practice3/MIPS_Processor.v(464): [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/ID_EX File: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v
+# ** Warning: (vsim-3015) C:/Users/coque/Desktop/AC/AC-Practice3/MIPS_Processor.v(464): [PCDPC] - Port size (150) does not match connection size (151) for port 'DataInput'. The port definition is at: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v(22).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/ID_EX File: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v
+# ** Warning: (vsim-3015) C:/Users/coque/Desktop/AC/AC-Practice3/MIPS_Processor.v(464): [PCDPC] - Port size (150) does not match connection size (151) for port 'DataOutput'. The port definition is at: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v(25).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/ID_EX File: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v
+# ** Warning: (vsim-3015) C:/Users/coque/Desktop/AC/AC-Practice3/MIPS_Processor.v(514): [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/EX_MEM File: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v
+# ** Warning: (vsim-3015) C:/Users/coque/Desktop/AC/AC-Practice3/MIPS_Processor.v(572): [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MEM_WB File: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v
+run
+run
+run
+# Compile of SignExtend.v was successful.
+# Compile of Adder32bits.v was successful.
+# Compile of ALU.v was successful.
+# Compile of ALUControl.v was successful.
+# Compile of ANDGate.v was successful.
+# Compile of Control.v was successful.
+# Compile of DataMemory.v was successful.
+# Compile of DecoderRegisterFile.v was successful.
+# Compile of Definitions.v was successful.
+# Compile of MIPS_Processor.v was successful.
+# Compile of MIPS_Processor_TB.v was successful.
+# Compile of Multiplexer2to1.v was successful.
+# Compile of MUXRegisterFile.v was successful.
+# Compile of PC_Register.v was successful.
+# Compile of pipe.v was successful.
+# Compile of ProgramMemory.v was successful.
+# Compile of Register.v was successful.
+# Compile of RegisterFile.v was successful.
+# Compile of ShiftLeft2.v was successful.
+# 19 compiles, 0 failed with no errors.
+restart
+# Loading work.MIPS_Processor_TB
+# Loading work.MIPS_Processor
+# Loading work.Control
+# Loading work.PC_Register
+# Loading work.ProgramMemory
+# Loading work.Adder32bits
+# Loading work.Multiplexer2to1
+# Loading work.ShiftLeft2
+# Loading work.RegisterFile
+# Loading work.DecoderRegisterFile
+# Loading work.Register
+# Loading work.MUXRegisterFile
+# Loading work.SignExtend
+# Loading work.ALUControl
+# Loading work.ALU
+# Loading work.DataMemory
+# Loading work.Pipe
+# ** Warning: (vsim-3015) C:/Users/coque/Desktop/AC/AC-Practice3/MIPS_Processor.v(446): [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/IF_ID File: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v
+# ** Warning: (vsim-3015) C:/Users/coque/Desktop/AC/AC-Practice3/MIPS_Processor.v(464): [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/ID_EX File: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v
+# ** Warning: (vsim-3015) C:/Users/coque/Desktop/AC/AC-Practice3/MIPS_Processor.v(515): [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/EX_MEM File: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v
+# ** Warning: (vsim-3015) C:/Users/coque/Desktop/AC/AC-Practice3/MIPS_Processor.v(573): [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MEM_WB File: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v
 run
 run
 run
 run
+# Compile of SignExtend.v was successful.
+# Compile of Adder32bits.v was successful.
+# Compile of ALU.v was successful.
+# Compile of ALUControl.v was successful.
+# Compile of ANDGate.v was successful.
+# Compile of Control.v was successful.
+# Compile of DataMemory.v was successful.
+# Compile of DecoderRegisterFile.v was successful.
+# Compile of Definitions.v was successful.
+# Compile of MIPS_Processor.v was successful.
+# Compile of MIPS_Processor_TB.v was successful.
+# Compile of Multiplexer2to1.v was successful.
+# Compile of MUXRegisterFile.v was successful.
+# Compile of PC_Register.v was successful.
+# Compile of pipe.v was successful.
+# Compile of ProgramMemory.v was successful.
+# Compile of Register.v was successful.
+# Compile of RegisterFile.v was successful.
+# Compile of ShiftLeft2.v was successful.
+# 19 compiles, 0 failed with no errors.
+restart
+# Loading work.MIPS_Processor_TB
+# Loading work.MIPS_Processor
+# Loading work.Control
+# Loading work.PC_Register
+# Loading work.ProgramMemory
+# Loading work.Adder32bits
+# Loading work.Multiplexer2to1
+# Loading work.ShiftLeft2
+# Loading work.RegisterFile
+# Loading work.DecoderRegisterFile
+# Loading work.Register
+# Loading work.MUXRegisterFile
+# Loading work.SignExtend
+# Loading work.ALUControl
+# Loading work.ALU
+# Loading work.DataMemory
+# Loading work.Pipe
+# ** Warning: (vsim-3015) C:/Users/coque/Desktop/AC/AC-Practice3/MIPS_Processor.v(446): [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/IF_ID File: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v
+# ** Warning: (vsim-3015) C:/Users/coque/Desktop/AC/AC-Practice3/MIPS_Processor.v(464): [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/ID_EX File: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v
+# ** Warning: (vsim-3015) C:/Users/coque/Desktop/AC/AC-Practice3/MIPS_Processor.v(515): [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/EX_MEM File: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v
+# ** Warning: (vsim-3015) C:/Users/coque/Desktop/AC/AC-Practice3/MIPS_Processor.v(573): [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MEM_WB File: C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v
 run
 run
 run
 run
-run
-run
-run
-run
-run
-run
-run
-run
-# End time: 01:31:23 on Mar 31,2020, Elapsed time: 0:39:10
-# Errors: 0, Warnings: 0
+# End time: 18:05:53 on Apr 22,2020, Elapsed time: 2:05:54
+# Errors: 0, Warnings: 85
