@@ -1,0 +1,46 @@
+module ForwardingUnit
+(
+	input RegisterWireWB, 
+	input RegisterWireMEM,
+	input [4:0] RS_EX,
+	input [4:0] RT_EX,
+	input [4:0] RTorRD_MEM,
+	input [4:0] RTorRD_WB,
+	output [1:0] A,
+	output [1:0] B
+
+);
+
+// assign A = 	(RegisterWireMEM == 1'b1 &&  RTorRD_MEM != 0 && RS_EX == RTorRD_MEM)?2'b10:
+// 				(RegisterWireWB == 1'b1 && RTorRD_WB != 0 && RTorRD_MEM != RS_EX && RS_EX == RTorRD_WB)?2'b11:
+// 																																														2'b00;
+
+// assign B = 	(RegisterWireMEM == 1'b1 && RTorRD_MEM != 0 && RT_EX == RTorRD_MEM)?2'b10:
+// 				(RT_EX == RTorRD_WB && RegisterWireWB == 1'b1 && RTorRD_MEM != RT_EX && RTorRD_WB != 0)?2'b11:
+																													
+
+
+always @(*)
+  begin
+    A <= 2'b00;
+    B <= 2'b00;
+    if(RegisterWireMEM && (RTorRD_MEM != 0) && (RTorRD_MEM == RS_EX))
+    begin
+      A <= 2'b10;
+    end
+    if(RegisterWireMEM && (RTorRD_MEM != 0) && (RTorRD_MEM == RT_EX))
+    begin
+      B <= 2'b10;
+    end
+    if(RegisterWireWB && (RTorRD_WB != 0) && (RTorRD_MEM != RS_EX) && (RTorRD_WB == RS_EX)) 
+    begin
+      A <= 2'b01;
+    end
+    if(RegisterWireWB && (RTorRD_WB != 0) && (RTorRD_MEM != RT_EX) && (RTorRD_WB == RT_EX))
+    begin
+      B <= 2'b01;
+    end
+  end																																														2'b00;
+
+endmodule
+//muxregfile//

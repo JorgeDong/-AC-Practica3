@@ -23,6 +23,15 @@ module Register
 	output reg [N-1:0] DataOutput
 );
 
+// always@(negedge reset or negedge clk) begin
+// 	if(reset==0)
+// 		DataOutput <= 0;
+// 	else	
+// 		if(enable==1)
+// 			DataOutput<=DataInput;
+// end
+
+
 always@(negedge reset or posedge clk) begin
 	if(reset==0)
 		DataOutput <= 0;

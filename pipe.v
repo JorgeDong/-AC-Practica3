@@ -5,7 +5,7 @@
 * Version:
 *	1.0
 * Author:
-*	Ing: Moreno Kevin and Dong Jorge
+*	 Moreno Kevin and Dong Jorge
 * email:
 * Date:
 *	21/04/2020
@@ -33,4 +33,3 @@ always@(negedge reset or negedge clk) begin
 end
 
 endmodule
-//pcreg//

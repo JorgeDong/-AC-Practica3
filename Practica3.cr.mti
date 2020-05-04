@@ -78,12 +78,12 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 Top level modules:
 	ALU
 
-} {} {}} C:/Users/coque/Desktop/AC/AC-Practice3/MIPS_Processor_TB.v {1 {vlog -work work -stats=none C:/Users/coque/Desktop/AC/AC-Practice3/MIPS_Processor_TB.v
+} {} {}} C:/Users/coque/Desktop/AC/AC-Practice3/RegisterFile.v {1 {vlog -work work -stats=none C:/Users/coque/Desktop/AC/AC-Practice3/RegisterFile.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module MIPS_Processor_TB
+-- Compiling module RegisterFile
 
 Top level modules:
-	MIPS_Processor_TB
+	RegisterFile
 
 } {} {}} C:/Users/coque/Desktop/AC/AC-Practice3/Register.v {1 {vlog -work work -stats=none C:/Users/coque/Desktop/AC/AC-Practice3/Register.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
@@ -92,12 +92,12 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 Top level modules:
 	Register
 
-} {} {}} C:/Users/coque/Desktop/AC/AC-Practice3/RegisterFile.v {1 {vlog -work work -stats=none C:/Users/coque/Desktop/AC/AC-Practice3/RegisterFile.v
+} {} {}} C:/Users/coque/Desktop/AC/AC-Practice3/MIPS_Processor_TB.v {1 {vlog -work work -stats=none C:/Users/coque/Desktop/AC/AC-Practice3/MIPS_Processor_TB.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module RegisterFile
+-- Compiling module MIPS_Processor_TB
 
 Top level modules:
-	RegisterFile
+	MIPS_Processor_TB
 
 } {} {}} C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v {1 {vlog -work work -stats=none C:/Users/coque/Desktop/AC/AC-Practice3/pipe.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
@@ -106,19 +106,19 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 Top level modules:
 	Pipe
 
-} {} {}} C:/Users/coque/Desktop/AC/AC-Practice3/Adder32bits.v {1 {vlog -work work -stats=none C:/Users/coque/Desktop/AC/AC-Practice3/Adder32bits.v
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module Adder32bits
-
-Top level modules:
-	Adder32bits
-
 } {} {}} C:/Users/coque/Desktop/AC/AC-Practice3/PC_Register.v {1 {vlog -work work -stats=none C:/Users/coque/Desktop/AC/AC-Practice3/PC_Register.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module PC_Register
 
 Top level modules:
 	PC_Register
+
+} {} {}} C:/Users/coque/Desktop/AC/AC-Practice3/Adder32bits.v {1 {vlog -work work -stats=none C:/Users/coque/Desktop/AC/AC-Practice3/Adder32bits.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Adder32bits
+
+Top level modules:
+	Adder32bits
 
 } {} {}} C:/Users/coque/Desktop/AC/AC-Practice3/MIPS_Processor.v {1 {vlog -work work -stats=none C:/Users/coque/Desktop/AC/AC-Practice3/MIPS_Processor.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
